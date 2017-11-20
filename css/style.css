@@ -17,6 +17,7 @@ a:visited {color: #0000EE;}
 a.droplink {font-weight:100; color:#0000EE;}
 a.droplink:hover {font-weight:300;}
 a.textlink:hover {font-weight:300;}
+h1 {color: #0000EE;font: bold 20px Arial, Helvetica, sans-serif;}
 h3 {color: #0000EE;font: bold 14px Arial, Helvetica, sans-serif;}
 hr {margin-top: 18px; margin-bottom: 18px;}
 img {border : 0;}
