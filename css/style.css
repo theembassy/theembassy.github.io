@@ -11,8 +11,8 @@ body {
   font-weight:300
 }
 
-a {color: #0000EE;text-decoration: none}
-a:hover {text-decoration: underline; color: #0000EE}
+a {color: #0000EE;text-decoration: underline}
+a:hover {text-decoration: none; color: #0000EE}
 a:visited {color: #0000EE;}
 a.droplink {font-weight:100; color:#0000EE;}
 a.droplink:hover {font-weight:300;}
