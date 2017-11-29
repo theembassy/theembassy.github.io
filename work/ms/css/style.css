@@ -130,7 +130,7 @@ ul.grid-nav li {
 	letter-spacing: 1px;
 	color: #0000EE;
 	background-color: #fff;
-	margin: 18% 5% 0;
+	margin: 18% 0% 0;
 	padding: 0px 0;
 }
 
@@ -165,6 +165,82 @@ ul.grid-nav li {
 
 }
 
+/* ---------- Zoom container 9 pics---------- */
+.image-zoom-container-nio {
+	list-style: none;
+	font-size: 0px;
+	box-shadow: 10px 10px 20px #888888;
+}
+.zoom-container-nio {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	width: 33.33333%; /* this value + 2 should = 33% */
+	font-size: 14px;
+	border: 0px solid #fff;
+	vertical-align: top;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.zoom-container-nio img {
+	display: block;
+	width: 100%;
+	height: auto;
+
+}
+
+.zoom-container-nio .zoom-caption {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+
+}
+.zoom-container-nio .zoom-caption h3 {
+  display: none;
+	text-align: center;
+	font: .8em/150% Arial, Helvetica, sans-serif;
+	letter-spacing: 1px;
+	color: #0000EE;
+	background-color: #fff;
+	margin: 17% 0% 0;
+	padding: 0px 0;
+}
+
+.zoom-container-nio:hover h3 {
+	display: block;
+}
+
+.zoom-container-nio:hover img {
+	opacity: 1;
+}
+
+@media (max-width: 800px) {
+	.container {
+	   width: auto;
+        padding: 0 10px;
+	}
+}
+
+@media (max-width: 600px) {
+
+	.zoom-container-nio {
+		width: 50%;
+	}
+
+}
+
+@media (max-width: 480px) {
+
+	.zoom-container-nio {
+		width: 100%;
+	}
+
+}
+
 /* ---------- Zoom container MINI ---------- */
 .image-zoom-container-mini {
 	list-style: none;
@@ -176,7 +252,7 @@ ul.grid-nav li {
 	display: inline-block;
 	width: 25%; /* this value + 2 should = 33% */
 	font-size: 12px;
-	border: 1px solid #fff;
+	border: 0px solid #fff;
 	vertical-align: top;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -201,14 +277,14 @@ ul.grid-nav li {
 }
 
 .zoom-container-mini .zoom-caption h3 {
-    display: none;
+  display: none;
 	text-align: center;
 	font: .8em/150% Arial, Helvetica, sans-serif;
 	letter-spacing: 1px;
-	color: #fff;
-	margin: 16% 5% 0;
-	padding: 0px 0;
-	font-weight:400
+	color: #0000EE;
+	background-color: #fff;
+	margin: 14% 0% 0;
+	padding: 1px 0;
 }
 
 .zoom-container-mini:hover h3 {
