@@ -1,0 +1,245 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	font: .9em/150% Arial, Helvetica, sans-serif;
+	color: #000;
+    display: block;
+    font-weight:100
+}
+
+a {color: #0000EE;text-decoration: none}
+a:hover {text-decoration: underline; color: #0000EE}
+a:visited { color: #0000EE;}
+a.droplink {font-weight:100; color:#0000EE;}
+a.droplink:hover {font-weight:100;}
+a.textlink:hover {font-weight:100;}
+
+
+.centered {
+	text-align: center;
+}
+.wrapper {
+	width: 100%;
+	padding: 20px 0;
+}
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.responsive-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; box-shadow: 10px 10px 20px #888888; background-color: #000;}
+.responsive-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #000;}
+
+ul.contact {
+	list-style: none;
+	text-align: left;
+}
+
+ul.contact li {
+    display: inline-block;
+    padding-top: 0px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+ul.represent {
+	list-style: none;
+	text-align: left;
+    padding-bottom: 20px;
+}
+
+ul.represent li {
+    display: inline-block;
+    padding-top: 0px;
+    padding-right: 5px;
+    padding-left: 0px;
+}
+
+p.newbuild {
+	text-align: left;
+    padding-bottom: 5px;
+}
+
+p.alert:target { display: none; }
+
+
+ul.filmnfo {
+    list-style: none;
+	text-align: left;
+    padding-top: 30px;
+}
+
+ul.grid-nav {
+	list-style: none;
+	text-align: left;
+    padding-top: 23px;
+}
+
+ul.grid-nav li {
+    display: inline-block;
+    padding-top: 0px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    padding-left: 0px;
+    letter-spacing: 0.01em;
+}
+
+/* ---------- Zoom container ---------- */
+.image-zoom-container {
+	list-style: none;
+	font-size: 0px;
+}
+.zoom-container {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	width: 50%; /* this value + 2 should = 33% */
+	font-size: 16px;
+	font-size: 1rem;
+	border: 1px solid #fff;
+	vertical-align: top;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.zoom-container img {
+	display: block;
+	width: 100%;
+	height: auto;
+
+}
+
+
+.zoom-container .zoom-caption {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+
+}
+.zoom-container .zoom-caption h3 {
+    display: none;
+	text-align: center;
+	font: .8em/150% Arial, Helvetica, sans-serif;
+	letter-spacing: 1px;
+	color: #fff;
+	margin: 18% 5% 0;
+	padding: 0px 0;
+}
+
+
+.zoom-container:hover h3 {
+	display: block;
+}
+
+.zoom-container:hover img {
+	opacity: 1;
+}
+
+@media (max-width: 800px) {
+	.container {
+	   width: auto;
+        padding: 0 10px;
+	}
+}
+
+@media (max-width: 600px) {
+
+	.zoom-container {
+		width: 50%;
+	}
+
+}
+
+@media (max-width: 480px) {
+
+	.zoom-container {
+		width: 100%;
+	}
+
+}
+
+/* ---------- Zoom container MINI ---------- */
+.image-zoom-container-mini {
+	list-style: none;
+	font-size: 0px;
+}
+.zoom-container-mini {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	width: 25%; /* this value + 2 should = 33% */
+	font-size: 12px;
+	border: 1px solid #fff;
+	vertical-align: top;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.zoom-container-mini img {
+	display: block;
+	width: 100%;
+	height: auto;
+
+}
+
+
+.zoom-container-mini .zoom-caption {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+
+}
+.zoom-container-mini .zoom-caption h3 {
+    display: none;
+	text-align: center;
+	font: .8em/150% Arial, Helvetica, sans-serif;
+	letter-spacing: 1px;
+	color: #fff;
+	margin: 16% 5% 0;
+	padding: 0px 0;
+}
+
+
+.zoom-container-mini:hover h3 {
+	display: block;
+}
+
+.zoom-container-mini:hover img {
+	opacity: 1;
+}
+
+@media (max-width: 800px) {
+	.container {
+	   width: auto;
+        padding: 0 10px;
+	}
+}
+
+@media (max-width: 600px) {
+
+	.zoom-container-mini {
+		width: 50%;
+        font-size: 16px;
+	}
+
+}
+
+@media (max-width: 480px) {
+
+	.zoom-container-mini {
+		width: 100%;
+        font-size: 16px;
+	}
+
+}
