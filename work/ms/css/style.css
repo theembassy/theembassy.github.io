@@ -92,6 +92,7 @@ ul.grid-nav li {
 .image-zoom-container {
 	list-style: none;
 	font-size: 0px;
+	box-shadow: 10px 10px 20px #888888;
 }
 .zoom-container {
 	position: relative;
@@ -100,7 +101,7 @@ ul.grid-nav li {
 	width: 50%; /* this value + 2 should = 33% */
 	font-size: 16px;
 	font-size: 1rem;
-	border: 1px solid #fff;
+	border: 0px solid #fff;
 	vertical-align: top;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -113,7 +114,6 @@ ul.grid-nav li {
 
 }
 
-
 .zoom-container .zoom-caption {
 	position: absolute;
 	top: 0;
@@ -124,15 +124,15 @@ ul.grid-nav li {
 
 }
 .zoom-container .zoom-caption h3 {
-    display: none;
+  display: none;
 	text-align: center;
 	font: .8em/150% Arial, Helvetica, sans-serif;
 	letter-spacing: 1px;
-	color: #fff;
+	color: #0000EE;
+	background-color: #fff;
 	margin: 18% 5% 0;
 	padding: 0px 0;
 }
-
 
 .zoom-container:hover h3 {
 	display: block;
@@ -182,13 +182,13 @@ ul.grid-nav li {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
+
 .zoom-container-mini img {
 	display: block;
 	width: 100%;
 	height: auto;
 
 }
-
 
 .zoom-container-mini .zoom-caption {
 	position: absolute;
@@ -199,6 +199,7 @@ ul.grid-nav li {
 	z-index: 10;
 
 }
+
 .zoom-container-mini .zoom-caption h3 {
     display: none;
 	text-align: center;
@@ -207,8 +208,8 @@ ul.grid-nav li {
 	color: #fff;
 	margin: 16% 5% 0;
 	padding: 0px 0;
+	font-weight:400
 }
-
 
 .zoom-container-mini:hover h3 {
 	display: block;
@@ -226,7 +227,6 @@ ul.grid-nav li {
 }
 
 @media (max-width: 600px) {
-
 	.zoom-container-mini {
 		width: 50%;
         font-size: 16px;
@@ -235,7 +235,6 @@ ul.grid-nav li {
 }
 
 @media (max-width: 480px) {
-
 	.zoom-container-mini {
 		width: 100%;
         font-size: 16px;
