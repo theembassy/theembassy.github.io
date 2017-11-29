@@ -99,7 +99,6 @@ ul.grid-nav li {
 	display: inline-block;
 	width: 50%; /* this value + 2 should = 33% */
 	font-size: 16px;
-	font-size: 1rem;
 	border: 0px solid #fff;
 	vertical-align: top;
 	box-sizing: border-box;
@@ -173,8 +172,8 @@ ul.grid-nav li {
 	position: relative;
 	overflow: hidden;
 	display: inline-block;
-	width: 33.33333%; /* this value + 2 should = 33% */
-	font-size: 14px;
+	width: 33.3333333333%; /* this value + 2 should = 33% */
+	font-size: 16px;
 	border: 0px solid #fff;
 	vertical-align: top;
 	box-sizing: border-box;
