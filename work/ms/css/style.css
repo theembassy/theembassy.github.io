@@ -92,7 +92,6 @@ ul.grid-nav li {
 .image-zoom-container {
 	list-style: none;
 	font-size: 0px;
-	box-shadow: 10px 10px 20px #888888;
 }
 .zoom-container {
 	position: relative;
@@ -169,7 +168,6 @@ ul.grid-nav li {
 .image-zoom-container-nio {
 	list-style: none;
 	font-size: 0px;
-	box-shadow: 10px 10px 20px #888888;
 }
 .zoom-container-nio {
 	position: relative;
