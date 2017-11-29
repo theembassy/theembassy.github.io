@@ -7,8 +7,8 @@
 body {
 	font: .9em/150% Arial, Helvetica, sans-serif;
 	color: #000;
-    display: block;
-    font-weight:100
+  display: block;
+  font-weight:500
 }
 
 a {color: #0000EE;text-decoration: none}
@@ -17,7 +17,8 @@ a:visited { color: #0000EE;}
 a.droplink {font-weight:100; color:#0000EE;}
 a.droplink:hover {font-weight:100;}
 a.textlink:hover {font-weight:100;}
-
+h1 {color: #0000EE;font: bold 20px Arial, Helvetica, sans-serif;}
+h3 {color: #0000EE;font: bold 14px Arial, Helvetica, sans-serif;}
 
 .centered {
 	text-align: center;
