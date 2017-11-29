@@ -25,7 +25,7 @@
 
          <ul class="represent">
             <li>Representation:</li>
-            <li>SWEDEN <a href="http://folkefilm.se/category/directors/marcus-soderlund/" target="_blank" class="textlink">Folke Film</a></li>
+            <li>SWEDEN <a href="http://folkefilm.se/marcus-soderlund" target="_blank" class="textlink">Folke Film</a></li>
             <li>UK <a href="http://www.academyfilms.com/marcus-sderlund" target="_blank" class="textlink">Academy Films</a></li>
             <li>US <a href="http://www.resetcontent.com/marcus-soderlund" target="_blank" class="textlink">Reset Content</a></li>
         </ul>
