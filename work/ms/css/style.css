@@ -14,11 +14,9 @@ body {
 a {color: #0000EE;text-decoration: none}
 a:hover {text-decoration: underline; color: #0000EE}
 a:visited { color: #0000EE;}
-a.droplink {font-weight:100; color:#0000EE;}
-a.droplink:hover {font-weight:100;}
-a.textlink:hover {font-weight:100;}
+a.droplink {color:#0000EE;}
 h1 {color: #0000EE;font: bold 20px Arial, Helvetica, sans-serif;}
-h3 {color: #0000EE;font: bold 14px Arial, Helvetica, sans-serif;}
+h3 {color: #0000EE;font: bold 16px Arial, Helvetica, sans-serif;}
 
 .centered {
 	text-align: center;
