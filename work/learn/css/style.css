@@ -5,10 +5,9 @@
 
 
 body {
-	font: .9em/150% Arial, Helvetica, sans-serif;
-	color: #000;
+	font: bold 15px/20px arial, sans-serif;
+	color: #0000EE;
   display: block;
-  font-weight:400
 }
 
 a {color: #0000EE;text-decoration: none}
@@ -26,14 +25,14 @@ h3 {color: #0000EE;font: bold 16px Arial, Helvetica, sans-serif;}
 	padding: 20px 0;
 }
 .container {
-	width: 800px;
+	width: 600px;
 	margin: 0 auto;
 }
 
 ul.head {
 	list-style: none;
 	text-align: left;
-  font: bolder 25px Arial, Helvetica, sans-serif;
+  font: bolder 20px Arial, Helvetica, sans-serif;
 	color: #0000EE;
 }
 
@@ -49,8 +48,7 @@ ul.head li {
 ul.info {
 	text-align: left;
   padding-top: 23px;
-  font: bolder 20px Arial, Helvetica, sans-serif;
-	color: #0000EE;
+
 }
 
 ul.info li {
@@ -111,10 +109,10 @@ ul.info li {
 	opacity: 1;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
 	.container {
 	   width: auto;
-        padding: 0 10px;
+    padding: 0 10px;
 	}
 }
 
