@@ -42,7 +42,7 @@ ul.contact li {
     display: inline-block;
     padding-top: 0px;
     padding-right: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-left: 0px;
 }
 
@@ -144,7 +144,7 @@ ul.grid-nav li {
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
 
 	.zoom-container {
 		width: 50%;
@@ -152,7 +152,7 @@ ul.grid-nav li {
 
 }
 
-@media (max-width: 340px) {
+@media (max-width: 480px) {
 
 	.zoom-container {
 		width: 100%;
