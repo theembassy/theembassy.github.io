@@ -75,7 +75,8 @@ ul.contact li {
 ul.nav {
 	list-style: none;
 	text-align: left;
-	padding-bottom: 18px;
+	padding-top: 3px;
+	padding-bottom: 15px;
 }
 
 ul.nav li {
@@ -90,7 +91,7 @@ ul.nav li {
 ul.txt-nav {
 		list-style: none;
 		text-align: left;
-  	padding-top: 18px;
+  	padding-top: 15px;
 }
 
 ul.txt-nav li {
@@ -114,7 +115,7 @@ p.alert:target { display: none; }
 ul.cat-nav {
     list-style: none;
 		text-align: left;
-    padding-top: 20px;
+    padding-top: 18px;
 }
 
 ul.cat-nav li {
