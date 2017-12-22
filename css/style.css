@@ -376,7 +376,7 @@ ul.grid-nav li {
 
 .zoom-container-max .zoom-caption {
   position: absolute;
-  top: 0;
+  top: 50;
   right: 0;
   bottom: 0;
   left: 0;
@@ -384,7 +384,7 @@ ul.grid-nav li {
 }
 
 .zoom-container-max .zoom-caption h3 {
-  text-align: center;
+  text-align: left;
   font: 6em/150% Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
   color: #84bac8;
