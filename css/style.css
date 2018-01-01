@@ -12,7 +12,6 @@ body {
 }
 
 a {
-  text-decoration: none;
   color: #1337a2;
   font-weight: bold;
   letter-spacing: 1px;
@@ -20,7 +19,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #1337a2;
   font-weight: bold;
   letter-spacing: 1px;
@@ -129,7 +128,7 @@ ul.nav {
   list-style: none;
   text-align: left;
   padding-top: 4px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 ul.nav li {
@@ -168,7 +167,7 @@ p.alert:target {
 ul.cat-nav {
   list-style: none;
   text-align: left;
-  padding-top: 15px;
+  padding-top: 20px;
   padding-bottom: 15px;
 }
 
