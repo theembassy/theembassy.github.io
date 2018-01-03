@@ -21,18 +21,18 @@ a {
 }
 
 a:hover {
-  color: #1337a2;
+  color: #8a256f;
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:visited {
-  color: #1337a2;
+  color: #8a256f;
   font-weight: bold;
   letter-spacing: 1px;
-  text-transform: none;
+  text-transform: underline;
 }
 
 h1 {
