@@ -6,9 +6,10 @@
 body {
   background-color: #84bac8;
   font: .9em/150% Arial, Helvetica, sans-serif;
-  color: #8a256f;
-  display: block;
-  font-weight: 400;
+  color: #1337a2;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 a {
