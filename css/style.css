@@ -4,11 +4,11 @@
 }
 
 body {
-  background-color: #84bac8;
+  background-color: #DCDCDC;
   font: .9em/150% Arial, Helvetica, sans-serif;
   color: #1337a2;
   font-weight: bold;
-  letter-spacing: 1px;
+  letter-spacing: 5px;
   text-transform: uppercase;
 }
 
@@ -36,7 +36,7 @@ a:visited {
 
 h1 {
   color: #1337a2;
-  font: bold 20px Arial, Helvetica, sans-serif;
+  font: bold 22px Arial, Helvetica, sans-serif;
 }
 
 h3 {
@@ -53,8 +53,14 @@ h4 {
 }
 
 hr {
-  margin-top: 10px;
-  margin-bottom: 25px;
+  border: 0;
+  height: 2px;
+  background-image: -webkit-linear-gradient(left, #DCDCDC, #1337a2, #DCDCDC);
+  background-image: -moz-linear-gradient(left, #DCDCDC, #1337a2, #DCDCDC);
+  background-image: -ms-linear-gradient(left, #DCDCDC, #1337a2, #DCDCDC);
+  background-image: -o-linear-gradient(left, #DCDCDC, #1337a2, #DCDCDC);
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 p.rubrik {
@@ -163,6 +169,21 @@ p.newbuild {
 
 p.alert:target {
   display: none;
+}
+
+ul.hit {
+  list-style: none;
+  text-align: left;
+  padding-top: 12px;
+  padding-bottom: 10px;
+}
+
+ul.hit li {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 2px;
+  padding-left: 0px;
+  letter-spacing: 0.03em;
 }
 
 ul.cat-nav {
@@ -369,7 +390,7 @@ ul.grid-nav li {
   width: 100%;
   /* this value + 2 should = 33% */
   font-size: 12px;
-  border: 0px solid #1337a2;
+  border: 1px solid #1337a2;
   vertical-align: top;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
