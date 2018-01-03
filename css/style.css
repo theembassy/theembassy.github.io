@@ -59,8 +59,8 @@ hr {
   background-image: -moz-linear-gradient(left, #DCDCDC, #1337a2, #DCDCDC);
   background-image: -ms-linear-gradient(left, #DCDCDC, #1337a2, #DCDCDC);
   background-image: -o-linear-gradient(left, #DCDCDC, #1337a2, #DCDCDC);
-    margin-top: 15px;
-    margin-bottom: 30px;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 p.rubrik {
