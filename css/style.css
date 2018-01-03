@@ -52,8 +52,8 @@ h4 {
 }
 
 hr {
-  margin-top: 18px;
-  margin-bottom: 18px;
+  margin-top: 10px;
+  margin-bottom: 25px;
 }
 
 p.rubrik {
@@ -168,7 +168,7 @@ ul.cat-nav {
   list-style: none;
   text-align: left;
   padding-top: 20px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 ul.cat-nav li {
