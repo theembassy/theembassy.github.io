@@ -1,3 +1,4 @@
 #8a256f
+#fffaf0
 
 background-color: #84bac8;
