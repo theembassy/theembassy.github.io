@@ -1,5 +1,7 @@
 #8a256f
 #fffaf0
 #DCDCDC
+0000FF
+1337a2
 
 background-color: #84bac8;
