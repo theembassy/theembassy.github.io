@@ -4,9 +4,9 @@
 }
 
 body {
-  background-color: #84bac8;
+  background-color: #000;
   font: .9em/150% Arial, Helvetica, sans-serif;
-  color: #1337a2;
+  color: #0000FF;
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -14,14 +14,14 @@ body {
 
 a {
   text-decoration: underline;
-  color: #1337a2;
+  color: #0000FF;
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
 a:hover {
-  color: #1337a2;
+  color: #0000FF;
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -29,25 +29,25 @@ a:hover {
 }
 
 a:visited {
-  color: #1337a2;
+  color: #0000FF;
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: underline;
 }
 
 h1 {
-  color: #1337a2;
-  font: bold 22px Arial, Helvetica, sans-serif;
+  color: #0000FF;
+  font: bolder 40px Helvetica;
 }
 
 h3 {
-  color: #1337a2;
+  color: #0000FF;
   font: bold 16px Arial, Helvetica, sans-serif;
   text-transform: uppercase;
 }
 
 h4 {
-  color: #1337a2;
+  color: #0000FF;
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -56,10 +56,10 @@ h4 {
 hr {
   border: 0;
   height: 2px;
-  background-image: -webkit-linear-gradient(left, #DCDCDC, #1337a2, #DCDCDC);
-  background-image: -moz-linear-gradient(left, #DCDCDC, #1337a2, #DCDCDC);
-  background-image: -ms-linear-gradient(left, #DCDCDC, #1337a2, #DCDCDC);
-  background-image: -o-linear-gradient(left, #DCDCDC, #1337a2, #DCDCDC);
+  background-image: -webkit-linear-gradient(left, #DCDCDC, #0000FF, #DCDCDC);
+  background-image: -moz-linear-gradient(left, #DCDCDC, #0000FF, #DCDCDC);
+  background-image: -ms-linear-gradient(left, #DCDCDC, #0000FF, #DCDCDC);
+  background-image: -o-linear-gradient(left, #DCDCDC, #0000FF, #DCDCDC);
   margin-top: 15px;
   margin-bottom: 30px;
 }
@@ -76,14 +76,14 @@ p.rubrik {
   width: 100%;
   padding: 20px 0;
   background-color: #fffaf0;
-  border: 1px solid #1337a2;
+  border: 1px solid #0000FF;
 }
 
 .wrapper-col {
   width: 100%;
   padding: 20px 0;
   background-color: #DCDCDC;
-  border: 1px solid #1337a2;
+  border: 1px solid #0000FF;
 }
 
 .container {
@@ -402,7 +402,7 @@ ul.grid-nav li {
   width: 100%;
   /* this value + 2 should = 33% */
   font-size: 12px;
-  border: 1px solid #1337a2;
+  border: 1px solid #0000FF;
   vertical-align: top;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
