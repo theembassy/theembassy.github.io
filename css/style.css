@@ -37,7 +37,7 @@ a:visited {
 
 h1 {
   color: #0000FF;
-  font: bolder 40px Helvetica;
+  font: bolder 200% Helvetica;
 }
 
 h3 {
@@ -208,7 +208,7 @@ ul.cat-nav {
 ul.cat-nav li {
   padding-top: 0px;
   padding-right: 0px;
-  padding-bottom: 2px;
+  padding-bottom: 10px;
   padding-left: 0px;
   letter-spacing: 0.03em;
 }
