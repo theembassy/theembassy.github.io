@@ -145,7 +145,7 @@ ul.nav {
   list-style: none;
   text-align: left;
   padding-top: 4px;
-  padding-bottom: 12px;
+  padding-bottom: 14px;
 }
 
 ul.nav li {
@@ -185,7 +185,7 @@ ul.hit {
   list-style: none;
   text-align: left;
   padding-top: 12px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 ul.hit li {
