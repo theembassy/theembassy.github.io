@@ -4,8 +4,8 @@
 }
 
 body {
-  background-color: #0000FF;
-  font: .9em/150% Arial, Helvetica, sans-serif;
+  background-color: #fffaf0;
+  font: .8em/150% Arial, Helvetica, sans-serif;
   color: #0000FF;
   font-weight: bold;
   letter-spacing: 1px;
@@ -60,7 +60,7 @@ hr {
   background-image: -moz-linear-gradient(left, #DCDCDC, #0000FF, #DCDCDC);
   background-image: -ms-linear-gradient(left, #DCDCDC, #0000FF, #DCDCDC);
   background-image: -o-linear-gradient(left, #DCDCDC, #0000FF, #DCDCDC);
-  margin-top: 15px;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -76,7 +76,7 @@ p.rubrik {
   width: 100%;
   padding: 20px 0;
   background-color: #fffaf0;
-  border: 1px solid #0000FF;
+  border: 0px solid #0000FF;
 }
 
 .wrapper-col {
@@ -89,8 +89,6 @@ p.rubrik {
 .container {
   width: 600px;
   margin: 0 auto;
-
-
 }
 
 .embed-container {
@@ -147,7 +145,7 @@ ul.nav {
   list-style: none;
   text-align: left;
   padding-top: 4px;
-  padding-bottom: 18px;
+  padding-bottom: 10px;
 }
 
 ul.nav li {
@@ -402,11 +400,11 @@ ul.grid-nav li {
   width: 100%;
   /* this value + 2 should = 33% */
   font-size: 12px;
-  border: 1px solid #0000FF;
   vertical-align: top;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  border: 1px solid #0000FF;
 }
 
 .zoom-container-max img {
