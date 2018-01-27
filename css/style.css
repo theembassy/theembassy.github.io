@@ -4,9 +4,9 @@
 }
 
 body {
-  background-color: #fffaf0;
+  background-color: #fc0d1b;
   font: .8em/150% Arial, Helvetica, sans-serif;
-  color: #0000FF;
+  color: #0b27fb;
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -14,14 +14,14 @@ body {
 
 a {
   text-decoration: underline;
-  color: #0000FF;
+  color: #0b27fb;
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
 a:hover {
-  color: #0000FF;
+  color: #0b27fb;
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -29,25 +29,26 @@ a:hover {
 }
 
 a:visited {
-  color: #0000FF;
+  color: #0b27fb;
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: underline;
 }
 
 h1 {
-  color: #0000FF;
+  color: #0b27fb;
   font: bolder 200% Helvetica;
+  letter-spacing: 1px;
 }
 
 h3 {
-  color: #0000FF;
+  color: #0b27fb;
   font: bold 16px Arial, Helvetica, sans-serif;
   text-transform: uppercase;
 }
 
 h4 {
-  color: #0000FF;
+  color: #0b27fb;
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -56,10 +57,10 @@ h4 {
 hr {
   border: 0;
   height: 2px;
-  background-image: -webkit-linear-gradient(left, #DCDCDC, #0000FF, #DCDCDC);
-  background-image: -moz-linear-gradient(left, #DCDCDC, #0000FF, #DCDCDC);
-  background-image: -ms-linear-gradient(left, #DCDCDC, #0000FF, #DCDCDC);
-  background-image: -o-linear-gradient(left, #DCDCDC, #0000FF, #DCDCDC);
+  background-image: -webkit-linear-gradient(left, #DCDCDC, #0b27fb, #DCDCDC);
+  background-image: -moz-linear-gradient(left, #DCDCDC, #0b27fb, #DCDCDC);
+  background-image: -ms-linear-gradient(left, #DCDCDC, #0b27fb, #DCDCDC);
+  background-image: -o-linear-gradient(left, #DCDCDC, #0b27fb, #DCDCDC);
   margin-top: 13px;
   margin-bottom: 30px;
 }
@@ -76,14 +77,14 @@ p.rubrik {
   width: 100%;
   padding: 20px 0;
   background-color: #fffaf0;
-  border: 0px solid #0000FF;
+  border: 0px solid #0b27fb;
 }
 
 .wrapper-col {
   width: 100%;
   padding: 20px 0;
   background-color: #DCDCDC;
-  border: 1px solid #0000FF;
+  border: 1px solid #0b27fb;
 }
 
 .container {
@@ -404,7 +405,7 @@ ul.grid-nav li {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  border: 1px solid #0000FF;
+  border: 1px solid #0b27fb;
 }
 
 .zoom-container-max img {
