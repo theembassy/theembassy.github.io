@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #fc0d1b;
+  background-color: #fafafa;
   font: .8em/150% Arial, Helvetica, sans-serif;
   color: #0b27fb;
   font-weight: bold;
@@ -76,16 +76,10 @@ p.rubrik {
 .wrapper {
   width: 100%;
   padding: 20px 0;
-  background-color: #fffaf0;
+  background-color: #fafafa;
   border: 0px solid #0b27fb;
 }
 
-.wrapper-col {
-  width: 100%;
-  padding: 20px 0;
-  background-color: #DCDCDC;
-  border: 1px solid #0b27fb;
-}
 
 .container {
   width: 600px;

@@ -5,6 +5,7 @@
 1337a2
 fc0d1b
 0b27fb
+fafafa
 
 background-color: #84bac8;
 
