@@ -37,9 +37,10 @@ a:visited {
 
 h1 {
   color: #0b27fb;
-  font: bolder 200% Helvetica;
+  font: bolder 200% Helvetica, Sans-Serif;
   letter-spacing: 1px;
 }
+
 
 h3 {
   color: #0b27fb;

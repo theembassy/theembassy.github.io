@@ -1,19 +1,23 @@
-const hitAR = {
-  id: "hit11",
-  url: "https://www.youtube.com/embed/videoseries?list=PLeX6pl7_1oKwbNigcuvzRJsxp0pKFO0B2&amp;showinfo=0",
-  tracks: ["Pure Essence - Wake Up",
-    "P!OFF? - In Der Nacht"]
-  };
+//8 3_ What is JSON_ Part II - p5 js Tutorial
 
-//'<div class="image-zoom-container-max"><div class="zoom-container-max"><img src="img/hit11.jpg" /></div></div>',
-//'<iframe width="300" height="47" src="https://www.youtube.com/embed/videoseries?list=PLeX6pl7_1oKwbNigcuvzRJsxp0pKFO0B2&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>',
+var data;
 
+function preload() {
+  data = loadJSON("data.json");
+}
 
-document.getElementById("hits").innerHTML = hitAR.join("<br>") + "<hr>";
+function setup() {
+  noCanvas();
 
-//hitAR.join("<br>") + "<hr>";
+  var hitDB = data.hitDB;
 
-//for (let i = 0; i < hit11AR.length; i++) { hit11AR[i];
-//for (const hits of hit11AR) {
-//  document.getElementById("hit11").innerHTML = hits;
-//  }
+  for (var i = 0; i < hitDB.length; i++) {
+    createElement('h1', hitDB[i].id);
+    var tracks = hitDB[i].tracks;
+    for (var j = 0; j < tracks.length; j++) {
+      createDiv(tracks[j]);
+    }
+  }
+}
+
+//document.getElementById("hits").innerHTML = hitAR.join("<br>") + "<hr>";
