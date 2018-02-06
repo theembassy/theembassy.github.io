@@ -8,6 +8,7 @@ body {
   font: .9em/150% Arial, Helvetica, sans-serif;
   color: #0b27fb;
   letter-spacing: 1px;
+  line-height: 1.6;
 }
 
 strong {
@@ -392,7 +393,7 @@ ul.grid-nav li {
 .image-zoom-container-max {
   list-style: none;
   font-size: 0px;
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 .zoom-container-max {
