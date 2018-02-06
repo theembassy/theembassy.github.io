@@ -8,15 +8,14 @@ body {
 	font: .9em/150% Arial, Helvetica, sans-serif;
 	color: #000;
   display: block;
-  font-weight:400
 }
 
 a {color: #0000EE;text-decoration: none}
 a:hover {text-decoration: underline; color: #0000EE}
 a:visited { color: #0000EE;}
 a.droplink {color:#0000EE;}
-h1 {color: #0000EE;font: bold 20px Arial, Helvetica, sans-serif;}
-h3 {color: #0000EE;font: bold 16px Arial, Helvetica, sans-serif;}
+h1 {color: #0000EE; font: bolder 140% Helvetica, Sans-Serif; letter-spacing: 0.8px; text-transform: uppercase}
+h2 {color: #0000EE; font: bolder 120% Helvetica, Sans-Serif; letter-spacing: 0.8px; text-transform: uppercase}
 
 .centered {
 	text-align: center;
@@ -89,26 +88,29 @@ ul.grid-nav li {
 }
 
 /* ---------- Zoom container ---------- */
-.zoom-container-max {
-  position: relative;
-  overflow: hidden;
-  display: inline-block;
-  width: 100%;
-  /* this value + 2 should = 33% */
-  font-size: 12px;
-  vertical-align: top;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  border: 1px solid #0b27fb;
+.image-zoom-container {
+	list-style: none;
+	font-size: 0px;
 }
-
-.zoom-container-max img {
-  display: block;
-  width: 100%;
-  height: auto;
+.zoom-container {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	width: 50%; /* this value + 2 should = 33% */
+	font-size: 16px;
+	border-color: #fff;
+	border-style: solid;
+  border-width: 1px 1px 0px 0px;
+	vertical-align: top;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 }
-
+.zoom-container img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
 .zoom-container .zoom-caption {
 	position: absolute;
 	top: 0;
@@ -120,9 +122,10 @@ ul.grid-nav li {
 .zoom-container .zoom-caption h3 {
   display: none;
 	text-align: center;
-	font: bold 12px Arial, Helvetica, sans-serif;
+	font: bold .8em/150% Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
+	line-height: 1.4;
 	color: #fff;
 	margin: 16% 0% 0;
 	padding: 0px 0;
@@ -153,6 +156,87 @@ ul.grid-nav li {
 
 	.zoom-container {
 		width: 100%;
+	}
+
+}
+
+/* ---------- Zoom container MINI ---------- */
+.image-zoom-container-mini {
+	list-style: none;
+	font-size: 0px;
+}
+.zoom-container-mini {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	width: 25%; /* this value + 2 should = 33% */
+	font-size: 12px;
+	border-color: #fff;
+	text-transform: uppercase;
+	border-style: solid;
+  border-width: 1px 1px 0px 0px;
+	vertical-align: top;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.zoom-container-mini img {
+	display: block;
+	width: 100%;
+	height: auto;
+
+}
+
+.zoom-container-mini .zoom-caption {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+
+}
+
+.zoom-container-mini .zoom-caption h3 {
+  display: none;
+	text-align: center;
+	font: bold .8em/150% Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 1.4;
+	color: #fff;
+	margin: 13% 4% 0;
+	padding: 0px 0;
+}
+
+.zoom-container-mini:hover h3 {
+	display: block;
+}
+
+.zoom-container-mini:hover img {
+	opacity: 1;
+}
+
+@media (max-width: 800px) {
+	.container {
+	   width: auto;
+        padding: 0 10px;
+	}
+}
+
+@media (max-width: 600px) {
+	.zoom-container-mini {
+		width: 50%;
+        font-size: 16px;
+	}
+
+}
+
+@media (max-width: 480px) {
+	.zoom-container-mini {
+		width: 100%;
+        font-size: 16px;
 	}
 
 }
@@ -197,6 +281,7 @@ ul.grid-nav li {
   display: none;
 	text-align: center;
 	font: .8em/150% Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
 	letter-spacing: 1px;
 	color: #fff;
 	margin: 17% 0% 0;
@@ -230,84 +315,6 @@ ul.grid-nav li {
 
 	.zoom-container-nio {
 		width: 100%;
-	}
-
-}
-
-/* ---------- Zoom container MINI ---------- */
-.image-zoom-container-mini {
-	list-style: none;
-	font-size: 0px;
-}
-.zoom-container-mini {
-	position: relative;
-	overflow: hidden;
-	display: inline-block;
-	width: 25%; /* this value + 2 should = 33% */
-	font-size: 12px;
-	border-color: #fff;
-	border-style: solid;
-  border-width: 1px 1px 0px 0px;
-	vertical-align: top;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-}
-
-.zoom-container-mini img {
-	display: block;
-	width: 100%;
-	height: auto;
-
-}
-
-.zoom-container-mini .zoom-caption {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: 10;
-
-}
-
-.zoom-container-mini .zoom-caption h3 {
-  display: none;
-	text-align: center;
-	font: .8em/150% Arial, Helvetica, sans-serif;
-	letter-spacing: 1px;
-	color: #fff;
-	margin: 14% 0% 0;
-	padding: 1px 0;
-}
-
-.zoom-container-mini:hover h3 {
-	display: block;
-}
-
-.zoom-container-mini:hover img {
-	opacity: 1;
-}
-
-@media (max-width: 800px) {
-	.container {
-	   width: auto;
-        padding: 0 10px;
-	}
-}
-
-@media (max-width: 600px) {
-	.zoom-container-mini {
-		width: 50%;
-        font-size: 16px;
-	}
-
-}
-
-@media (max-width: 480px) {
-	.zoom-container-mini {
-		width: 100%;
-        font-size: 16px;
 	}
 
 }
