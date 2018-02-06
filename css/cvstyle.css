@@ -463,3 +463,73 @@ ul.grid-nav li {
     padding: 0px 10px 0px 10px;
   }
 }
+
+.colshift {
+
+
+
+
+
+
+     color:#0b27fb;
+
+     -webkit-animation:colorchange 1s 1 normal;
+
+
+   }
+
+   @-webkit-keyframes colorchange {
+     0% {
+
+       color: #27fb0b;
+     }
+
+     10% {
+
+       color: #fb0b27;
+     }
+
+     20% {
+
+       color: #27fb0b;
+     }
+
+     30% {
+
+       color: #670bfb;
+     }
+
+     40% {
+
+       color: #0b27fb;
+     }
+
+     50% {
+
+       color: #0b27fb;
+     }
+
+     60% {
+
+       color: #0b27fb;
+     }
+
+     70% {
+
+       color: #0b27fb;
+     }
+     80% {
+
+       color: #0b27fb;
+     }
+
+     90% {
+
+       color: #0b27fb;
+     }
+
+     100% {
+
+       color: #0b27fb;
+     }
+   }
