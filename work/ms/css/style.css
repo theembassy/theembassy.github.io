@@ -89,29 +89,26 @@ ul.grid-nav li {
 }
 
 /* ---------- Zoom container ---------- */
-.image-zoom-container {
-	list-style: none;
-	font-size: 0px;
+.zoom-container-max {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+  /* this value + 2 should = 33% */
+  font-size: 12px;
+  vertical-align: top;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 1px solid #0b27fb;
 }
-.zoom-container {
-	position: relative;
-	overflow: hidden;
-	display: inline-block;
-	width: 50%; /* this value + 2 should = 33% */
-	font-size: 16px;
-	border-color: #fff;
-	border-style: solid;
-  border-width: 1px 1px 0px 0px;
-	vertical-align: top;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
+
+.zoom-container-max img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
-.zoom-container img {
-	display: block;
-	width: 100%;
-	height: auto;
-}
+
 .zoom-container .zoom-caption {
 	position: absolute;
 	top: 0;

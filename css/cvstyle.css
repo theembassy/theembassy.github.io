@@ -392,6 +392,7 @@ ul.grid-nav li {
 .image-zoom-container-max {
   list-style: none;
   font-size: 0px;
+  padding-top: 5px;
 }
 
 .zoom-container-max {
