@@ -57,7 +57,7 @@ h3 {
   color: #0b27fb;
   font: bolder 100% Helvetica, Sans-Serif;
   letter-spacing: 1.3px;
-  text-transform: uppercase;
+  line-height: 1.6;
 }
 
 hr {
