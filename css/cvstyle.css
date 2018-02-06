@@ -17,11 +17,11 @@ strong {
 
 
 a {
-  text-decoration: underline;
   color: #0b27fb;
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -34,9 +34,6 @@ a:hover {
 
 a:visited {
   color: #0b27fb;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-transform: underline;
 }
 
 h1 {
