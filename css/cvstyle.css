@@ -67,7 +67,7 @@ hr {
   background-image: -moz-linear-gradient(left, #DCDCDC, #0b27fb, #DCDCDC);
   background-image: -ms-linear-gradient(left, #DCDCDC, #0b27fb, #DCDCDC);
   background-image: -o-linear-gradient(left, #DCDCDC, #0b27fb, #DCDCDC);
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 30px;
 }
 
@@ -393,7 +393,7 @@ ul.grid-nav li {
 .image-zoom-container-max {
   list-style: none;
   font-size: 0px;
-  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .zoom-container-max {
