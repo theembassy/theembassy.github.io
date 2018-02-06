@@ -5,12 +5,16 @@
 
 body {
   background-color: #fafafa;
-  font: .8em/150% Arial, Helvetica, sans-serif;
+  font: .9em/150% Arial, Helvetica, sans-serif;
   color: #0b27fb;
   font-weight: bold;
   letter-spacing: 1px;
+}
+
+strong {
   text-transform: uppercase;
 }
+
 
 a {
   text-decoration: underline;
@@ -39,19 +43,20 @@ h1 {
   color: #0b27fb;
   font: bolder 200% Helvetica, Sans-Serif;
   letter-spacing: 1px;
-}
-
-
-h3 {
-  color: #0b27fb;
-  font: bold 16px Arial, Helvetica, sans-serif;
   text-transform: uppercase;
 }
 
-h4 {
+h2 {
   color: #0b27fb;
-  font-weight: bold;
-  letter-spacing: 1px;
+  font: bolder 150% Helvetica, Sans-Serif;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #0b27fb;
+  font: bolder 100% Helvetica, Sans-Serif;
+  letter-spacing: 1.3px;
   text-transform: uppercase;
 }
 
@@ -62,7 +67,7 @@ hr {
   background-image: -moz-linear-gradient(left, #DCDCDC, #0b27fb, #DCDCDC);
   background-image: -ms-linear-gradient(left, #DCDCDC, #0b27fb, #DCDCDC);
   background-image: -o-linear-gradient(left, #DCDCDC, #0b27fb, #DCDCDC);
-  margin-top: 15px;
+  margin-top: 40px;
   margin-bottom: 15px;
 }
 
@@ -126,6 +131,7 @@ ul.contact {
   text-align: left;
   font-weight: 900;
   font-size: 0.9rem;
+  margin-bottom: 20px;
 }
 
 ul.contact li {
@@ -195,7 +201,7 @@ ul.hit li {
 ul.cat-nav {
   list-style: none;
   text-align: left;
-  padding-top: 20px;
+  padding-top: 0px;
   padding-bottom: 10px;
 }
 
@@ -288,7 +294,7 @@ ul.grid-nav li {
   opacity: 1;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .container {
     width: auto;
     padding: 0 10px;
@@ -361,7 +367,7 @@ ul.grid-nav li {
   opacity: 1;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .container {
     width: auto;
     padding: 0 10px;
