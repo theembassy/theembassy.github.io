@@ -481,27 +481,27 @@ ul.grid-nav li {
    @-webkit-keyframes colorchange {
      0% {
 
-       color: #27fb0b;
+       color: #fb0b27;
      }
 
      10% {
 
-       color: #fb0b27;
+       color: #27fb0b;
      }
 
      20% {
 
-       color: #27fb0b;
+       color: #0b27fb;
      }
 
      30% {
 
-       color: #670bfb;
+       color: #fb0b27;
      }
 
      40% {
 
-       color: #0b27fb;
+       color: #27fb0b;
      }
 
      50% {
@@ -511,12 +511,12 @@ ul.grid-nav li {
 
      60% {
 
-       color: #0b27fb;
+       color: #fb0b27;
      }
 
      70% {
 
-       color: #0b27fb;
+       color: #27fb0b;
      }
      80% {
 
@@ -525,11 +525,11 @@ ul.grid-nav li {
 
      90% {
 
-       color: #0b27fb;
+       color: #fb0b27;
      }
 
      100% {
 
-       color: #0b27fb;
+       color: #27fb0b;
      }
    }
