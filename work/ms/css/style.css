@@ -122,12 +122,12 @@ ul.grid-nav li {
 .zoom-container .zoom-caption h3 {
   display: none;
 	text-align: center;
-	font: bold .7em/150% Arial, Helvetica, sans-serif;
+	font: .7em/150% Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	line-height: 1.4;
 	color: #fff;
-	margin: 15% 0% 0;
+	margin: 14% 0% 0;
 	padding: 0px 0;
 }
 .zoom-container:hover h3 {
@@ -199,12 +199,12 @@ ul.grid-nav li {
 .zoom-container-mini .zoom-caption h3 {
   display: none;
 	text-align: center;
-	font: bold .7em/150% Arial, Helvetica, sans-serif;
+	font: .7em/150% Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	line-height: 1.4;
 	color: #fff;
-	margin: 13% 4% 0;
+	margin: 14% 4% 0;
 	padding: 0px 0;
 }
 
