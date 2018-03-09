@@ -19,18 +19,18 @@
 	<div class="wrapper">
 		<div class="container">
 
-			<!--/ HEAD -->
-
 			<ul class="contact">
-				<!--/<li><script src="js/blink.js"></script></li>-->
-				<h1>MARCUS S&Ouml;DERLUND</h1>
+				<li><h1><script src="js/blink.js"></script></h1></li>
+				<br>
 				<li><a href="tel:+46739380209">+46739380209</a></li>
 				<li>info@marcussoderlund.se</li>
 			</ul>
 
 			<ul class="represent">
 				<li>Representation:</li>
-				<li>SWEDEN <a href="http://folkefilm.se/category/directors/marcus-soderlund/" target="_blank" class="textlink">Folke Film</a></li>
-				<li>UK <a href="http://www.academyfilms.com/marcus-sderlund" target="_blank" class="textlink">Academy Films</a></li>
+				<li>SWEDEN <a href="http://indio.se/artist/marcus-soderlund" target="_blank" class="textlink">Indio</a></li>
 				<li>US <a href="http://www.resetcontent.com/marcus-soderlund" target="_blank" class="textlink">Reset Content</a></li>
+				<li>UK <a href="http://www.academyfilms.com/marcus-sderlund" target="_blank" class="textlink">Academy Films</a></li>
+				<li>FRANCE <a href="http://henry.tv/director/marcus-soderlund" target="_blank" class="textlink">Henry</a></li>
+				<li>GERMANY <a href=" http://www.iconoclast.tv/de/marcus-soderlund/nature-valley-be-a-powerful-force" target="_blank" class="textlink">Iconoclast</a></li>
 			</ul>
