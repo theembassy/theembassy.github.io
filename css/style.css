@@ -398,7 +398,7 @@ ul.grid-nav li {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  border: 20px double #fff;
+  border: 10px double #fff;
 }
 
 .zoom-container-max img {
