@@ -246,7 +246,7 @@ ul.grid-nav li {
   width: 50%;
   /* this value + 2 should = 33% */
   font-size: 1rem;
-  border: 1px solid #fff;
+  border: 1px double #fff;
   vertical-align: top;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -319,7 +319,7 @@ ul.grid-nav li {
   width: 25%;
   /* this value + 2 should = 33% */
   font-size: 12px;
-  border: 1px solid #fff;
+  border: 1px double #fff;
   vertical-align: top;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -398,7 +398,7 @@ ul.grid-nav li {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  border: 1px solid #fff;
+  border: 20px double #fff;
 }
 
 .zoom-container-max img {
