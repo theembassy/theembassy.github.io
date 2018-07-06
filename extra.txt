@@ -11,3 +11,4 @@ fc0d1b
 fafafa
 
 background-color: #84bac8;
+background: linear-gradient(10deg, #8a256f 60%, #84bac8 60%);
