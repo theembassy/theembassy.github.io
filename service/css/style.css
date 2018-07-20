@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+/* ---------- Zoom container MAX ---------- */
+
+.image-zoom-container-max {
+  list-style: none;
+  font-size: 0px;
+}
+
+.zoom-container-max {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+  /* this value + 2 should = 33% */
+  font-size: 12px;
+  vertical-align: top;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 1px solid #fff;
+}
+
+.zoom-container-max img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.zoom-container-max .zoom-caption {
+  position: absolute;
+  top: 50;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.zoom-container-max .zoom-caption h3 {
+  text-align: left;
+  font: 6em/150% Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  color: #84bac8;
+  margin: 5% 5% 0;
+  padding: 0px 0;
+}
+
+.zoom-container-max:hover h3 {
+  display: block;
+  color: #84bac8;
+}
+
+.zoom-container-max:hover img {
+  opacity: 1;
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: auto;
+    padding: 0px 10px 0px 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: auto;
+    padding: 0px 10px 0px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: auto;
+    padding: 0px 10px 0px 10px;
+  }
+}
