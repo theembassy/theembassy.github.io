@@ -5,14 +5,39 @@
 	<meta charset="utf-8" />
 	<meta name="description" content="Newbuild" />
 	<meta name="keywords" content="euromix, unity, beats" />
-	<meta name="viewport" content="width=device-width" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="http://theembassy.info/img/pearr.ico" />
-	<link href="css/style.css" rel="stylesheet" />
 	<title>Service 2.0</title>
 </head>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('img/1.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+
 <body>
 
-<img src="img/1.jpg" class="bg">
+<div class="parallax"></div>
 
 </body>
 </html>
