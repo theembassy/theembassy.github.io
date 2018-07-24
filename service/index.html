@@ -59,15 +59,15 @@ a:visited {
 h1 {
   color: #000;
   font: bolder 200% Helvetica, Sans-Serif;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	background-color: #fff;
+	padding: 4px 10px;
 }
 
 ul.head {
   list-style: none;
   text-align: left;
-	background-color: #fff;
-	padding: 4px 10px;
-	opacity: 0.8;
-	filter: alpha(opacity=80);
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -76,15 +76,20 @@ ul.head {
 ul.foot {
 	list-style: none;
   text-align: left;
-	background-color: #fff;
-	padding: 4px 10px;
-	opacity: 0.8;
-	filter: alpha(opacity=80);
 	position: fixed;
   right: 0;
   bottom: 0;
 }
 
+ul.txt1 {
+	list-style: none;
+  text-align: left;
+	position: fixed;
+  top: 30%;
+  left: 20%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
 
 
 .wrapper {
@@ -105,6 +110,20 @@ ul.foot {
 	<ul class="head">
 		<li>
 			<h1>&lArr;</h1>
+		</li>
+	</ul>
+
+	<ul class="txt1">
+		<li>
+			<h1>The thirst for annihilation</h1>
+		</li>
+		<li>&nbsp;</li>
+		<li>
+			<h1>The thirst for annihilation</h1>
+		</li>
+		<li>&nbsp;</li>
+		<li>
+			<h1>The thirst for annihilation</h1>
 		</li>
 	</ul>
 
