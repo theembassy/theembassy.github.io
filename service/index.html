@@ -16,28 +16,102 @@
   padding: 0;
 }
 
-body, html {
+html {
     height: 100%;
 }
 
-.parallax {
-    /* The image used */
-    background-image: url('img/1.jpg');
+body {
+	background-image: url('img/1.jpg');
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 
-    /* Full height */
-    height: 100%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-color: #fff;
+  font: .8em/150% Arial, Helvetica, sans-serif;
+  color: #000;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
+
+a {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+	text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000;
+  font-weight: bold;
+  text-transform: none;
+}
+
+h1 {
+  color: #000;
+  font: bolder 200% Helvetica, Sans-Serif;
+}
+
+ul.head {
+  list-style: none;
+  text-align: left;
+	background-color: #fff;
+	padding: 4px 10px;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+
+ul.foot {
+	list-style: none;
+  text-align: left;
+	background-color: #fff;
+	padding: 4px 10px;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+.wrapper {
+  width: 100%;
+  padding: 20px 0;
+}
+
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
 </style>
 
 <body>
 
-<div class="parallax"></div>
+	<ul class="head">
+		<li>
+			<h1>&larr;</h1>
+		</li>
+	</ul>
+
+	<ul class="foot">
+		<li>
+			<h1>Service 2.0</h1>
+		</li>
+	</ul>
+
 
 </body>
 </html>
