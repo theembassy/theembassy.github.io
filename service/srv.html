@@ -74,6 +74,14 @@
 		top: 0;
 	}
 
+	ul.headright {
+		list-style: none;
+		text-align: left;
+		position: fixed;
+		right: 0;
+		top: 0;
+	}
+
 	ul.footleft {
 		list-style: none;
 		text-align: left;
@@ -122,8 +130,12 @@
 	}
 
 	.center {
-	    padding: 70px 0;
-	    text-align: center;
+		display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
 	}
 
 	/* ---------- Zoom container MINI ---------- */
@@ -146,8 +158,6 @@
 	  box-sizing: border-box;
 	  -moz-box-sizing: border-box;
 	  -webkit-box-sizing: border-box;
-
-
 	}
 
 	.zoom-container-mini img {
@@ -218,8 +228,9 @@
 				</li>
 			</ul>
 
-<div class="center">
+
 			<div class="image-zoom-container-mini">
+				<br><br>
 				<div class="zoom-container-mini">
 					<a href="#">
 						<span class="zoom-caption">
@@ -421,7 +432,6 @@
 					</a>
 				</div>
 			</div>
-</div>
 
 			<ul class="footleft">
 					<li>
