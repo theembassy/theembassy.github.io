@@ -21,7 +21,7 @@
 	}
 
 	body {
-		background-image: url('img/2.jpg');
+		background-image: url('img/srvmun.jpg');
 		height: 100%;
 		background-attachment: fixed;
 		background-position: center;
@@ -108,6 +108,117 @@
 		width: 800px;
 		margin: 0 auto;
 	}
+
+	.embed-container {
+	  position: relative;
+	  padding-bottom: 56.25%;
+	  height: 0;
+	  overflow: hidden;
+	  max-width: 100%;
+	  height: auto;
+	}
+
+	.embed-container iframe, .embed-container object, .embed-container embed {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	}
+
+	.responsive-container {
+	  position: relative;
+	  padding-bottom: 56.25%;
+	  padding-top: 30px;
+	  height: 0;
+	  overflow: hidden;
+	  box-shadow: 0px 0px 0px #888888;
+	}
+
+	.responsive-container iframe {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	}
+
+	/* ---------- Zoom container MINI ---------- */
+
+	.image-zoom-container-mini {
+	  list-style: none;
+	  font-size: 0px;
+	}
+
+	.zoom-container-mini {
+	  position: relative;
+	  overflow: hidden;
+	  display: inline-block;
+	  width: 20%;
+	  /* this value + 2 should = 33% */
+	  font-size: 12px;
+	  border: 1px solid #000;
+	  vertical-align: top;
+	  box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	}
+
+	.zoom-container-mini img {
+	  display: block;
+	  width: 100%;
+	  height: auto;
+	}
+
+	.zoom-container-mini .zoom-caption {
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	  z-index: 10;
+	}
+
+	.zoom-container-mini .zoom-caption h3 {
+	  display: none;
+	  text-align: center;
+	  font: 1em/150% Arial, Helvetica, sans-serif;
+	  letter-spacing: 1px;
+	  color: #000;
+		background-color: #fff;
+	  margin: 40% 5% 0;
+	  padding: 0px 0;
+	}
+
+	.zoom-container-mini:hover h3 {
+	  display: block;
+	}
+
+	.zoom-container-mini:hover img {
+	  opacity: 1;
+	}
+
+	@media (max-width: 800px) {
+	  .container {
+	    width: auto;
+	    padding: 0 10px;
+	  }
+	}
+
+	@media (max-width: 600px) {
+	  .container {
+	    width: auto;
+	    padding: 0 10px;
+	  }
+	}
+
+	@media (max-width: 480px) {
+	  .container {
+	    width: auto;
+	    padding: 0 10px;
+	  }
+	}
+
 </style>
 
 <body>
@@ -121,9 +232,216 @@
 				</li>
 			</ul>
 
-		</div>
-	</div>
+			<div class="image-zoom-container-mini">
+				<br><br>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV001</h3>
+						</span>
+					 <img src="img/SERV001.jpg" />
+					</a>
+				</div>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV002</h3>
+						</span>
+						<img src="img/SERV002.jpg" />
+					</a>
+				</div>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV003</h3>
+						</span>
+						<img src="img/SERV003.jpg" />
+					</a>
+				</div>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV004</h3>
+						</span>
+						<img src="img/SERV004.jpg" />
+					</a>
+				</div>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV005</h3>
+						</span>
+						<img src="img/SERV005.jpg" />
+					</a>
+				</div>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV006</h3>
+						</span>
+						<img src="img/SERV006.jpg" />
+					</a>
+				</div>
+							<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV007</h3>
+						</span>
+					 <img src="img/SERV007.jpg" />
+					</a>
+				</div>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV008</h3>
+						</span>
+						<img src="img/SERV008.jpg" />
+					</a>
+				</div>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV009</h3>
+						</span>
+						<img src="img/SERV009.jpg" />
+					</a>
+				</div>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV010</h3>
+						</span>
+						<img src="img/SERV010.jpg" />
+					</a>
+				</div>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV011</h3>
+						</span>
+						<img src="img/SERV011.jpg" />
+					</a>
+				</div>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV012</h3>
+						</span>
+						<img src="img/SERV012.jpg" />
+					</a>
+				</div>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV013</h3>
+						</span>
+						<img src="img/SERV013.jpg" />
+					</a>
+				</div>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV014</h3>
+						</span>
+						<img src="img/SERV014.jpg" />
+					</a>
+				</div>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV015</h3>
+						</span>
+						<img src="img/SERV015.jpg" />
+					</a>
+				</div>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV016</h3>
+						</span>
+						<img src="img/SERV016.jpg" />
+					</a>
+				</div>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV017</h3>
+						</span>
+						<img src="img/SERV017.jpg" />
+					</a>
+				</div>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV018</h3>
+						</span>
+						<img src="img/SERV018.jpg" />
+					</a>
+				</div>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV019</h3>
+						</span>
+						 <img src="img/SERV019.jpg" />
+					</a>
+				</div>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV020</h3>
+						</span>
+						<img src="img/SERV020.jpg" />
+					</a>
+				</div>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV021</h3>
+						</span>
+						<img src="img/SERV021.jpg" />
+					</a>
+				</div>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV022</h3>
+						</span>
+						<img src="img/SERV022.jpg" />
+					</a>
+				</div>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV023</h3>
+						</span>
+						<img src="img/SERV023.jpg" />
+					</a>
+				</div>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV024</h3>
+						</span>
+						<img src="img/SERV024.jpg" />
+					</a>
+				</div>
+				<div class="zoom-container-mini">
+					<a href="#">
+						<span class="zoom-caption">
+							<h3>SERV025</h3>
+						</span>
+						<img src="img/SERV025.jpg" />
+					</a>
+				</div>
 
-</body>
+			</div>
 
-</html>
+			<ul class="footright">
+				<li>
+					<a href="srv.html"><h1>&nbsp;Service 2.0&nbsp;</h1></a>
+				</li>
+			</ul>
+
+
+</div></div></body></html>
