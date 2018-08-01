@@ -70,6 +70,10 @@ p.rubrik {
   letter-spacing: 0.05em;
 }
 
+img {
+  vertical-align: bottom;
+}
+
 .centered {
   text-align: center;
 }

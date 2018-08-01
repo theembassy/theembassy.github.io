@@ -35,6 +35,10 @@ a:visited {
   text-transform: underline;
 }
 
+img {
+  vertical-align: bottom;
+}
+
 h1 {
   color: #fff;
   font: bolder 200% Helvetica, Sans-Serif;
