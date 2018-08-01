@@ -388,6 +388,9 @@ ul.grid-nav li {
 .image-zoom-container-max {
   list-style: none;
   font-size: 0px;
+  box-shadow: 10px 10px 20px #888888;
+  background-color: #fff;
+
 }
 
 .zoom-container-max {
@@ -401,7 +404,7 @@ ul.grid-nav li {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  border: 1px solid #000;
+  border: 0px solid #000;
 }
 
 .zoom-container-max img {
