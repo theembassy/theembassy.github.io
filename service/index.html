@@ -10,6 +10,17 @@
 	<title>Pop Against Itself</title>
 </head>
 
+<script>
+function myFunction() {
+    var x = document.getElementById("menu");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+
 <style>
 	* {
 		margin: 0;
@@ -54,6 +65,10 @@
 		line-height: 1.2;
 		letter-spacing: 0.03em;
 	}
+
+	#menu {
+		display: none;
+}
 
 	ul.nav {
 		list-style: none;
@@ -175,8 +190,8 @@
 			</div>
 
 			<ul class="nav">
-				<h1>Pop Against Itself</h1>
-				<li>
+				<a href="#" onclick="myFunction()"><h1>Pop Against Itself</h1></a>
+				<li id="menu">
 					<a href="http://srvc.tictail.com" target="_blank">Contact&nbsp;&nbsp;</a>
 					<a href="http://srvc.tictail.com" target="_blank">Instagram&nbsp;&nbsp;</a>
 					<a href="http://srvc.tictail.com" target="_blank">Apple Music&nbsp;&nbsp;</a>
