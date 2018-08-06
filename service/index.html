@@ -7,7 +7,7 @@
 	<meta name="keywords" content="euromix, unity, beats" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="http://theembassy.info/img/pearr.ico" />
-	<title>Service 2.0</title>
+	<title>Pop Against Itself</title>
 </head>
 
 <style>
@@ -21,13 +21,6 @@
 	}
 
 	body {
-		background-image: url('img/1.jpg');
-		height: 100%;
-		background-attachment: fixed;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-
 		background-color: #fff;
 		font: .8em/150% Arial, Helvetica, sans-serif;
 		color: #000;
@@ -55,48 +48,42 @@
 		text-transform: none;
 	}
 
-	h1 {
+	h1.logga {
 		color: #000;
 		font: bolder 200% Helvetica, Sans-Serif;
-		opacity: 0.8;
-		filter: alpha(opacity=80);
-		background-color: #fff;
-		line-height: 1.4;
 		letter-spacing: 1px;
-	}
-
-	ul.head {
 		list-style: none;
-		text-align: left;
+		text-align: center;
 		position: fixed;
-		left: 0;
-		top: 0;
+		/**adjust location**/
+		right: 0px;
+		bottom: 40px;
+		padding: 0 10px 0 10px;
+		width: 100%;
 	}
 
-	ul.footright {
+
+	ul.nav {
 		list-style: none;
-		text-align: left;
+		text-align: center;
 		position: fixed;
-		right: 0;
-		bottom: 0;
+		/**adjust location**/
+		right: 0px;
+		bottom: 20px;
+		padding: 0 10px 0 10px;
+		width: 100%;
 	}
 
-	ul.footleft {
-		list-style: none;
-		text-align: left;
-		position: fixed;
-		left: 0;
-		bottom: 0;
-	}
-
-	ul.txt1 {
-		list-style: none;
-		text-align: left;
-		position: fixed;
-		top: 30%;
+	ul.nav li {
+		display: inline-block;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-right: 0px;
+		padding-left: 0px;
+		letter-spacing: 0.03em;
+		word-spacing: 10px;
 
 	}
-
 
 	.wrapper {
 		width: 100%;
@@ -108,42 +95,107 @@
 		width: 800px;
 		margin: 0 auto;
 	}
+
+
+	/* ---------- Zoom container MAX ---------- */
+
+	.image-zoom-container-max {
+		list-style: none;
+		font-size: 0px;
+	}
+
+	.zoom-container-max {
+		position: relative;
+		overflow: hidden;
+		display: inline-block;
+		width: 100%;
+		/* this value + 2 should = 33% */
+		font-size: 12px;
+		vertical-align: top;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		border: 1px solid #fff;
+	}
+
+	.zoom-container-max img {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.zoom-container-max .zoom-caption {
+		position: absolute;
+		top: 50;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 10;
+	}
+
+	.zoom-container-max .zoom-caption h3 {
+		text-align: left;
+		font: 6em/150% Arial, Helvetica, sans-serif;
+		letter-spacing: 1px;
+		color: #84bac8;
+		margin: 5% 5% 0;
+		padding: 0px 0;
+	}
+
+	.zoom-container-max:hover h3 {
+		display: block;
+		color: #84bac8;
+	}
+
+	.zoom-container-max:hover img {
+		opacity: 1;
+	}
+
+	@media (max-width: 800px) {
+		.container {
+			width: auto;
+			padding: 0px 10px 0px 10px;
+		}
+	}
+
+	@media (max-width: 600px) {
+		.container {
+			width: auto;
+			padding: 0px 10px 0px 10px;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.container {
+			width: auto;
+			padding: 0px 10px 0px 10px;
+		}
+	}
 </style>
 
 <body>
-
 	<div class="wrapper">
 		<div class="container">
 
-			<ul class="head">
-				<li>
-					<a href="x.html"><img height="45" src="img/srvclogga.jpg"></a>
-				</li>
-			</ul>
+			<div class="image-zoom-container-max">
+				<div class="zoom-container-max">
+					<img src="img/bg1.jpg" />
+				</div>
+			</div>
 
-			<ul class="txt1">
-				<li>
-					<h1>&nbsp;Thirst for annihilation&nbsp;</h1>
-				</li>
-				<li>&nbsp;</li>
-				<li>
-					<h1>&nbsp;Thirst for annihilation&nbsp;</h1>
-				</li>
-				<li>&nbsp;</li>
-				<li>
-					<h1>&nbsp;Thirst for annihilation&nbsp;</h1>
-				</li>
-			</ul>
+			<h1 class="logga">Pop Against Itself</h1>
 
-			<ul class="footright">
+			<ul class="nav">
 				<li>
-					<a href="srv.html"><h1>&nbsp;Service 2.0&nbsp;</h1></a>
+					<a href="http://srvc.tictail.com" target="_blank">Contact</a>
+					<a href="http://srvc.tictail.com" target="_blank">Instagram</a>
+					<a href="http://srvc.tictail.com" target="_blank">Apple Music</a>
+					<a href="http://srvc.tictail.com" target="_blank">Spotify</a>
 				</li>
 			</ul>
 
 		</div>
 	</div>
-
 </body>
 
 </html>

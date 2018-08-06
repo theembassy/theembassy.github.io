@@ -3,21 +3,160 @@
   padding: 0;
 }
 
-img.bg {
-  /* Set rules to fill background */
+html {
+  height: 100%;
+}
 
-  /*
-  min-height: 100%;
-  min-width: 1024px;
-  */
-  /* Set up proportionate scaling */
+body {
+  background-image: url('img/bg.jpg');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-color: #fff;
+  font: .8em/150% Arial, Helvetica, sans-serif;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000;
+  font-weight: bold;
+  text-transform: none;
+}
+
+h1 {
+  color: #000;
+  font: bolder 200% Helvetica, Sans-Serif;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  background-color: #fff;
+  line-height: 3;
+  letter-spacing: 1px;
+}
+
+
+ul.nav {
+  list-style: none;
+  text-align: center;
+  position:fixed;
+  /**adjust location**/
+  right: 0px;
+  bottom: 20px;
+  padding: 0 10px 0 10px;
   width: 100%;
-  height: 100%
+}
 
-  /*height: auto;*/
+ul.nav li {
+  display: inline-block;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  letter-spacing: 0.03em;
 
-  /* Set up positioning */
-  position: fixed;
-  top: 0;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 20px 0;
+}
+
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+/* ---------- Zoom container MAX ---------- */
+
+.image-zoom-container-max {
+  list-style: none;
+  font-size: 0px;
+}
+
+.zoom-container-max {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+  /* this value + 2 should = 33% */
+  font-size: 12px;
+  vertical-align: top;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 1px solid #fff;
+}
+
+.zoom-container-max img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.zoom-container-max .zoom-caption {
+  position: absolute;
+  top: 50;
+  right: 0;
+  bottom: 0;
   left: 0;
+  z-index: 10;
+}
+
+.zoom-container-max .zoom-caption h3 {
+  text-align: left;
+  font: 6em/150% Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  color: #84bac8;
+  margin: 5% 5% 0;
+  padding: 0px 0;
+}
+
+.zoom-container-max:hover h3 {
+  display: block;
+  color: #84bac8;
+}
+
+.zoom-container-max:hover img {
+  opacity: 1;
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: auto;
+    padding: 0px 10px 0px 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: auto;
+    padding: 0px 10px 0px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: auto;
+    padding: 0px 10px 0px 10px;
+  }
 }
