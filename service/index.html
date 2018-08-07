@@ -10,19 +10,6 @@
 	<title>Pop Against Itself</title>
 </head>
 
-<script>
-	function myFunction() {
-		var x = document.getElementById("menu");
-		var y = document.getElementById("plus");
-		if (x.style.display === "none") {
-			x.style.display = "block";
-			y.style.display = "none";
-		} else {
-			x.style.display = "none";
-		}
-	}
-</script>
-
 <style>
 	* {
 		margin: 0;
@@ -191,6 +178,8 @@
 	}
 </style>
 
+
+
 <body>
 	<div class="wrapper">
 		<div class="container">
@@ -204,7 +193,7 @@
 			<ul class="nav">
 				<h1>Pop Against Itself</h1>
 				<li>
-					<a href="#" onclick="myFunction()"><img id="plus" class="nav" height=25 src="img/plus.png" /></a>
+					<a href="#"><img id="plus" class="nav" height=25 src="img/plus.png" /></a>
 					<div id="menu">
 						<img class="nav" height=25 src="img/diamant.png" />
 						<img class="nav" height=25 src="img/mail.png" />
@@ -217,6 +206,19 @@
 
 		</div>
 	</div>
+
+	<script>
+	var x = document.getElementById("plus");
+	if (x.addEventListener) {
+	    x.addEventListener("click", myFunction);
+	}
+
+	function myFunction() {
+		document.getElementById("menu").style.display = "block";
+		document.getElementById("plus").style.display = "none";
+	}
+	</script>
+
 </body>
 
 </html>
