@@ -13,8 +13,10 @@
 <script>
 function myFunction() {
     var x = document.getElementById("menu");
+		var y = document.getElementById("plus");
     if (x.style.display === "none") {
         x.style.display = "block";
+				y.style.display = "none";
     } else {
         x.style.display = "none";
     }
@@ -68,6 +70,10 @@ function myFunction() {
 
 	#menu {
 		display: none;
+	}
+
+	#plus {
+		display: block;
 	}
 
 	img.nav {
@@ -196,13 +202,15 @@ function myFunction() {
 
 			<ul class="nav">
 				<h1>Pop Against Itself</h1>
-				<a href="#" onclick="myFunction()"><img class="nav" height=25 src="img/plus.png" /></a>
-				<li id="menu">
+				<li>
+					<a href="#" onclick="myFunction()"><img id="plus" class="nav" height=25 src="img/plus.png" /></a>
+						<div id="menu">
 						<img class="nav" height=25 src="img/mail.png" />
 						<img class="nav" height=25 src="img/instagram.png" />
 						<img class="nav" height=25 src="img/apple.png" />
 						<img class="nav" height=25 src="img/spotify.png" />
 						<img class="nav" height=25 src="img/diamant.png" />
+					</div>
 				</li>
 			</ul>
 
