@@ -64,6 +64,10 @@
 		display: block;
 	}
 
+	#min {
+		display: block;
+	}
+
 	img.nav {
 		margin: 10px 10px;
 	}
@@ -195,11 +199,12 @@
 				<li>
 					<a href="#"><img id="plus" class="nav" height=25 src="img/plus.png" /></a>
 					<div id="menu">
-						<img class="nav" height=25 src="img/diamant.png" />
-						<img class="nav" height=25 src="img/mail.png" />
-						<img class="nav" height=25 src="img/instagram.png" />
-						<img class="nav" height=25 src="img/apple.png" />
-						<img class="nav" height=25 src="img/spotify.png" />
+
+						<a href="#" target="_blank"><img class="nav" height=25 src="img/diamant.png" /></a>
+						<a href="#" target="_blank"><img class="nav" height=25 src="img/mail.png" /></a>
+						<a href="#" target="_blank"><img class="nav" height=25 src="img/instagram.png" /></a>
+						<a href="#" target="_blank"><img class="nav" height=25 src="img/apple.png" /></a>
+						<a href="#" target="_blank"><img class="nav" height=25 src="img/spotify.png" /></a>
 					</div>
 				</li>
 			</ul>
@@ -208,15 +213,15 @@
 	</div>
 
 	<script>
-	var x = document.getElementById("plus");
-	if (x.addEventListener) {
-	    x.addEventListener("click", myFunction);
-	}
+		var x = document.getElementById("plus");
+		if (x.addEventListener) {
+			x.addEventListener("click", myFunction);
+		}
 
-	function myFunction() {
-		document.getElementById("menu").style.display = "block";
-		document.getElementById("plus").style.display = "none";
-	}
+		function myFunction() {
+			document.getElementById("menu").style.display = "block";
+			document.getElementById("plus").style.display = "none";
+		}
 	</script>
 
 </body>
