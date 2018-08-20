@@ -21,13 +21,6 @@
 	}
 
 	body {
-		background-image: url('img/bg1.jpg');
-		height: 100%;
-		background-attachment: fixed;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-
 		background-color: #fff;
 		font: .8em/150% Arial, Helvetica, sans-serif;
 		color: #000;
@@ -63,14 +56,6 @@
 		padding-top: 10px;
 	}
 
-	ul.head {
-		list-style: none;
-		text-align: left;
-		position: fixed;
-		left: 0;
-		top: 0;
-	}
-
 	#menu {
 		display: none;
 	}
@@ -92,7 +77,8 @@
 		list-style: none;
 		text-align: center;
 		position: fixed;
-
+		opacity: 0.8;
+		filter: alpha(opacity=80);
 		background-color: #fff;
 		/**adjust location**/
 		right: 0px;
@@ -197,14 +183,15 @@
 </style>
 
 
-
 <body>
 	<div class="wrapper">
 		<div class="container">
 
-			<ul class="head">
-				<a href="#"><img id="arrow" src="img/arrow.png" height=32 /></a>
-			</ul>
+			<div class="image-zoom-container-max">
+				<div class="zoom-container-max">
+					<img src="img/bg1.jpg" />
+				</div>
+			</div>
 
 			<ul class="nav">
 				<h1>Pop Against Itself</h1>
@@ -223,7 +210,6 @@
 		</div>
 	</div>
 
-
 	<script>
 		var x = document.getElementById("plus");
 		if (x.addEventListener) {
@@ -233,24 +219,6 @@
 		function myFunction() {
 			document.getElementById("menu").style.display = "block";
 			document.getElementById("plus").style.display = "none";
-		}
-
-		var y = document.getElementById("arrow");
-		if (y.addEventListener) {
-			y.addEventListener("click", newBg);
-		}
-
-		var i = 2;
-		function newBg() {
-			if (i < 5) {
-				document.body.style.backgroundImage = "url('img/bg" + i + ".jpg')";
-				i++;
-			} else {
-				i = 1;
-				document.body.style.backgroundImage = "url('img/bg" + i + ".jpg')";
-				i++;
-			}
-
 		}
 	</script>
 
