@@ -8,12 +8,11 @@ html {
 }
 
 body {
-  background-image: url('img/bg1.jpg');
+  background-image: url('img/bg1.jpg') center top;
   height: 100%;
   background-attachment: fixed;
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 
   background-color: #fff;
   font: .8em/150% Arial, Helvetica, sans-serif;
