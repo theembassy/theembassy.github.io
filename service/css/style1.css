@@ -8,12 +8,6 @@ html {
 }
 
 body {
-  background-image: url('img/bg1.jpg') center top;
-  height: 100%;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: contain;
-
   background-color: #fff;
   font: .8em/150% Arial, Helvetica, sans-serif;
   color: #000;
@@ -98,7 +92,7 @@ ul.nav li {
 
 .wrapper {
   width: 100%;
-  padding: 10px 0;
+  padding: 0px 0;
 }
 
 .container {
@@ -124,7 +118,7 @@ ul.nav li {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  border: 1px solid #fff;
+  border: 0px solid #fff;
 }
 
 .zoom-container-max img {
@@ -133,50 +127,23 @@ ul.nav li {
   height: auto;
 }
 
-.zoom-container-max .zoom-caption {
-  position: absolute;
-  top: 50;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 10;
-}
-
-.zoom-container-max .zoom-caption h3 {
-  text-align: left;
-  font: 6em/150% Arial, Helvetica, sans-serif;
-  letter-spacing: 1px;
-  color: #84bac8;
-  margin: 5% 5% 0;
-  padding: 0px 0;
-}
-
-.zoom-container-max:hover h3 {
-  display: block;
-  color: #84bac8;
-}
-
-.zoom-container-max:hover img {
-  opacity: 1;
-}
-
 @media (max-width: 800px) {
   .container {
     width: auto;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 0px 0px 0px;
   }
 }
 
 @media (max-width: 600px) {
   .container {
     width: auto;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 0px 0px 0px;
   }
 }
 
 @media (max-width: 480px) {
   .container {
     width: auto;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 0px 0px 0px;
   }
 }
