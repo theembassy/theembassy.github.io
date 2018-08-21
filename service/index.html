@@ -11,7 +11,7 @@
 	<title>Pop Against Itself</title>
 </head>
 
-<body  onload="newBg()">
+<body onload="newBg()">
 	<div class="wrapper">
 		<div class="container">
 
@@ -22,9 +22,9 @@
 			</div>
 
 			<ul class="nav">
-					<a href="#"><h1 id="arrow">Pop Against Itself</h1></a>
+				<a href="#"><h1 id="arrow">Pop Against Itself</h1></a>
+				<li><a href="#"><img id="plus" class="nav" height=25 src="img/plus.png" /></a></li>
 				<li>
-					<a href="#"><img id="plus" class="nav" height=25 src="img/plus.png" /></a>
 					<div id="menu">
 						<a href="#" target="_blank"><img class="nav" height=25 src="img/diamant.png" /></a>
 						<a href="#" target="_blank"><img class="nav" height=25 src="img/mail.png" /></a>
@@ -49,6 +49,7 @@
 			document.getElementById("menu").style.display = "block";
 			document.getElementById("plus").style.display = "none";
 		}
+
 
 		var y = document.getElementById("arrow");
 		if (y.addEventListener) {
