@@ -96,7 +96,7 @@ ul.nav li {
 }
 
 .container {
-  width: 800px;
+  width: 600px;
   margin: 0 auto;
 }
 
@@ -127,7 +127,7 @@ ul.nav li {
   height: auto;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .container {
     width: auto;
     padding: 0px 0px 0px 0px;
