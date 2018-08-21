@@ -58,7 +58,7 @@
 				<li>
 					<a href="#"><img id="plus" class="nav" height=25 src="img/diamant.png" /></a>
 					<div id="menu">
-						<a href="#" target="_blank"><img class="nav" height=25 src="img/diamant.png" /></a>
+						<a href="#"><img id="min" class="nav" height=25 src="img/diamant.png" /></a>
 						<a href="#" target="_blank"><img class="nav" height=25 src="img/mail.png" /></a>
 						<a href="#" target="_blank"><img class="nav" height=25 src="img/instagram.png" /></a>
 						<a href="#" target="_blank"><img class="nav" height=25 src="img/apple.png" /></a>
@@ -74,12 +74,22 @@
 	<script>
 		var x = document.getElementById("plus");
 		if (x.addEventListener) {
-			x.addEventListener("click", myFunction);
+			x.addEventListener("click", myPlus);
 		}
 
-		function myFunction() {
+		var y = document.getElementById("min");
+		if (y.addEventListener) {
+			y.addEventListener("click", myMin);
+		}
+
+		function myPlus() {
 			document.getElementById("menu").style.display = "block";
 			document.getElementById("plus").style.display = "none";
+		}
+
+		function myMin() {
+			document.getElementById("menu").style.display = "none";
+			document.getElementById("plus").style.display = "block";
 		}
 
 
@@ -95,7 +105,7 @@
 		    myIndex++;
 		    if (myIndex > x.length) {myIndex = 1}
 		    x[myIndex-1].style.display = "block";
-		    setTimeout(carousel, 100); // Change image every 2 seconds
+		    setTimeout(carousel, 200); // Change image every 2 seconds
 		}
 
 	</script>
