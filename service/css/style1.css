@@ -73,8 +73,8 @@ ul.nav {
   text-align: center;
   position: fixed;
 
-  background-color: #fff;
-  /**adjust location**/
+  /**background-color: #fff;
+  adjust location**/
   right: 0px;
   bottom: 0px;
   padding: 0;
@@ -93,6 +93,7 @@ ul.nav li {
 .wrapper {
   width: 100%;
   padding: 0px 0;
+  background-color: #fff;
 }
 
 .container {
