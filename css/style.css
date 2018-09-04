@@ -224,6 +224,33 @@ ul.cat-center li {
   letter-spacing: 0.03em;
 }
 
+img.nav-bottom {
+  margin: 10px 10px;
+}
+
+
+ul.nav-bottom {
+  list-style: none;
+  text-align: center;
+  position: fixed;
+
+  /**background-color: #fff;
+  adjust location**/
+  right: 0px;
+  bottom: 20px;
+  padding: 0;
+  width: 100%;
+}
+
+ul.nav-bottom li {
+  display: inline-block;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  letter-spacing: 0.04em;
+}
+
 ul.cat-nav li.txt {
   font-weight: 300;
 }
