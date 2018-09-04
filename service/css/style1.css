@@ -43,6 +43,15 @@ h1 {
   padding-top: 11px;
 }
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #000;
+    margin: 1em 0;
+    padding: 0;
+}
+
 ul.head {
   list-style: none;
   text-align: left;
@@ -78,12 +87,27 @@ ul.cat-nav li {
   display: block;
 }
 
-img.nav {
+ul.cat-center {
+  list-style: none;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+ul.cat-center li {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  letter-spacing: 0.03em;
+}
+
+img.nav-bottom {
   margin: 10px 10px;
 }
 
 
-ul.nav {
+ul.nav-bottom {
   list-style: none;
   text-align: center;
   position: fixed;
@@ -91,12 +115,12 @@ ul.nav {
   /**background-color: #fff;
   adjust location**/
   right: 0px;
-  bottom: 0px;
+  bottom: 20px;
   padding: 0;
   width: 100%;
 }
 
-ul.nav li {
+ul.nav-bottom li {
   display: inline-block;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -112,7 +136,7 @@ ul.nav li {
 }
 
 .container {
-  width: 800px;
+  width: 600px;
   margin: 0 auto;
 }
 
@@ -143,7 +167,7 @@ ul.nav li {
   height: auto;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .container {
     width: auto;
     padding: 0px 0px 0px 0px;

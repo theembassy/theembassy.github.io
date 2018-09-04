@@ -3,50 +3,45 @@
 
 <head>
 	<meta charset="utf-8" />
-	<meta name="description" content="The Embassy, White Lake" />
+	<meta name="description" content="Newbuild" />
 	<meta name="keywords" content="euromix, unity, beats" />
-	<meta name="viewport" content="width=device-width" />
-
-	<link rel="shortcut icon" href="img/pearr.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="http://theembassy.info/img/pearr.ico" />
 	<link href="css/style1.css" rel="stylesheet" />
-
-<title>Pop Against Itself</title>
-
+	<title>Pop Against Itself</title>
 </head>
 
-<body>
-
+<body onload="newBg()">
 	<div class="wrapper">
 		<div class="container">
 
 			<div class="image-zoom-container-max">
 				<div class="zoom-container-max">
-					<img src="img/e18w.gif" />
+					<img img id="newPic" src="img/bg1.jpg" />
 				</div>
 			</div>
 
-			<ul class="cat-center">
-				<li>
-					<h1>HOW DO YOU GET BACK INTO SOCIETY!?</h1></li>
-			</ul>
+			<ul class="cat-nav">
+				<li><h1>how do you get back into society!?</h1></li>
+				</ul>
 
-<hr>
-
-			<ul class="nav-bottom">
-				<a href="#"><h1>Pop Against Itself</h1></a>
+			<ul class="nav">
+				<h1 id="arrow">Pop Against Itself</h1>
+				<li><a href="#"><img id="plus" class="nav-bottom" height=25 src="img/plus.png" /></a></li>
 				<li>
-						<a href="srvc.html"><img class="nav-bottom" height=25 src="img/diamant.png" /></a>
+					<div id="menu">
+						<a href="srvc.html"><img class="nav" height=25 src="img/diamant.png" /></a>
 						<a href="#"><img class="nav-bottom" height=25 src="img/mail.png" /></a>
 						<a href="#"><img class="nav-bottom" height=25 src="img/instagram.png" /></a>
 						<a href="#"><img class="nav-bottom" height=25 src="img/apple.png" /></a>
 						<a href="#"><img class="nav-bottom" height=25 src="img/spotify.png" /></a>
+					</div>
 				</li>
 			</ul>
 
 		</div>
-
-		<!--/.wrapper-->
 	</div>
+
 
 	<script>
 		var x = document.getElementById("plus");
