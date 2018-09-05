@@ -80,7 +80,7 @@ p.rubrik {
 
 .wrapper {
   width: 100%;
-  padding: 20px 0;
+  padding: 0px 0;
 }
 
 
@@ -212,8 +212,8 @@ ul.cat-nav li {
 ul.cat-center {
   list-style: none;
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 
 ul.cat-center li {
