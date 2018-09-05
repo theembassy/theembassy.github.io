@@ -483,20 +483,20 @@ ul.grid-nav li {
 @media (max-width: 600px) {
   .container {
     width: auto;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
   }
 }
 
 @media (max-width: 600px) {
   .container {
     width: auto;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
   }
 }
 
 @media (max-width: 480px) {
   .container {
     width: auto;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
   }
 }
