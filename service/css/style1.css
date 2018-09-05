@@ -40,12 +40,12 @@ h1 {
   font: bolder 200% Helvetica, Sans-Serif;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  padding-top: 11px;
+  padding-top: 0px;
 }
 
 h2 {
   color: #000;
-  font: bolder 170% Helvetica, Sans-Serif;
+  font: bolder 160% Helvetica, Sans-Serif;
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
