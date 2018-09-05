@@ -33,19 +33,20 @@
 
 
 			<ul class="nav-bottom">
-				<h2>POP AGAINST ITSELF</h2>
+				<h2>Pop Against Itself</h2>
 				<li>
-						<a href="srvc.html"><img class="nav-bottom" height=20 src="img/diamant.png" /></a>
-						<a href="#"><img class="nav-bottom" height=20 src="img/mail.png" /></a>
-						<a href="#"><img class="nav-bottom" height=20 src="img/instagram.png" /></a>
+					<a href="#"><img id="plus" class="nav-bottom" height=20 src="img/plus.png" /></a>
+					<div id="menu">
+						<a href="http://srvc.tictail.com" target="_blank"><img class="nav-bottom" height=20 src="img/diamant.png" /></a>
+						<a href="mailto:popagainstitself@gmail.com?Subject=Pop Against Itself" target="_top"><img class="nav-bottom" height=20 src="img/mail.png" /></a>
+						<a href="https://www.instagram.com/popagainstitself" target="_blank"><img class="nav-bottom" height=20 src="img/instagram.png" /></a>
 						<a href="#"><img class="nav-bottom" height=20 src="img/apple.png" /></a>
 						<a href="#"><img class="nav-bottom" height=20 src="img/spotify.png" /></a>
+					</div>
 				</li>
 			</ul>
 
 		</div>
-
-		<!--/.wrapper-->
 	</div>
 
 	<script>
@@ -53,29 +54,9 @@
 		if (x.addEventListener) {
 			x.addEventListener("click", myFunction);
 		}
-
 		function myFunction() {
 			document.getElementById("menu").style.display = "block";
 			document.getElementById("plus").style.display = "none";
-		}
-
-
-		var y = document.getElementById("arrow");
-		if (y.addEventListener) {
-			y.addEventListener("click", newBg);
-		}
-
-		var i = 1;
-		function newBg() {
-			if (i < 5) {
-				document.getElementById("newPic").src = "img/bg" + i + ".jpg";
-				i++;
-			} else {
-				i = 1;
-				document.getElementById("newPic").src = "img/bg" + i + ".jpg";
-				i++;
-			}
-
 		}
 	</script>
 
