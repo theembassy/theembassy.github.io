@@ -43,6 +43,13 @@ h1 {
   padding-top: 11px;
 }
 
+h2 {
+  color: #000;
+  font: bolder 170% Helvetica, Sans-Serif;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
 hr {
     display: block;
     height: 1px;
@@ -115,7 +122,7 @@ ul.nav-bottom {
   /**background-color: #fff;
   adjust location**/
   right: 0px;
-  bottom: 20px;
+  bottom: 5px;
   padding: 0;
   width: 100%;
 }
