@@ -140,6 +140,21 @@ ul.contact li {
   letter-spacing: 0.05em;
 }
 
+ul.release {
+  list-style: none;
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+ul.release li {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  letter-spacing: 0.03em;
+}
+
 ul.nav {
   list-style: none;
   text-align: left;
