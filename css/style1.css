@@ -294,7 +294,7 @@ ul.grid-nav li {
   opacity: 1;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .container {
     width: auto;
     padding: 0 10px;
@@ -367,7 +367,7 @@ ul.grid-nav li {
   opacity: 1;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .container {
     width: auto;
     padding: 0 10px;
