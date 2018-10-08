@@ -120,12 +120,12 @@ body {
 }
 
 #myImg {
-    border-radius: 5px;
+    border-radius: 0px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.0s;
 }
 
-#myImg:hover {opacity: 0.7;}
+#myImg:hover {opacity: 1;}
 
 /* The Modal (background) */
 .modal {
@@ -155,7 +155,7 @@ body {
     margin: auto;
     display: block;
     width: 80%;
-    max-width: 700px;
+    max-width: 600px;
     text-align: center;
     color: #ccc;
     padding: 10px 0;
@@ -165,9 +165,9 @@ body {
 /* Add Animation */
 .modal-content, #caption {
     -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
+    -webkit-animation-duration: 0.2s;
     animation-name: zoom;
-    animation-duration: 0.6s;
+    animation-duration: 0.2s;
 }
 
 @-webkit-keyframes zoom {
