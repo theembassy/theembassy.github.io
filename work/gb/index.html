@@ -29,9 +29,8 @@
 
   <!-- Photo Grid -->
   <div class="row">
-
     <div class="column">
-      <img src="img/1.jpg" style="width:100%">
+      <img id="myImg" src="img/1.jpg" style="width:100%" alt="Donald Trump Jr and Eric Trump are prolific big-game hunters and during the 2016 campaign, images re-emerged of the pair on a 2011 hunting trip posing with animals they had killed on safari, including an elephant, a buffalo and a leopard.">
       <img src="img/2.jpg" style="width:100%">
     </div>
     <div class="column">
@@ -43,11 +42,19 @@
       <img src="img/6.jpg" style="width:100%">
     </div>
     <div class="column">
-      <img src="img/7.jpg" style="width:100%">
-      <img src="img/8.jpg" style="width:100%">
+        <img src="img/7.jpg" style="width:100%">
+        <img src="img/8.jpg" style="width:100%">
     </div>
-
   </div>
+
+          <img id="myImg" src="img_snow.jpg"  style="width:100%;max-width:300px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
 
           <script>
             function myFunction() {
@@ -57,6 +64,29 @@
               } else {
                 x.className = "topnav";
               }
+            }
+          </script>
+
+          <script>
+            // Get the modal
+            var modal = document.getElementById('myModal');
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById('myImg');
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function() {
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
             }
           </script>
 
