@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+
+  <link rel="shortcut icon" href="img/pearr.ico" />
+  <link href="https://fonts.googleapis.com/css?family=Oxygen:300" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
+
+
+  <title>Giovanni Bucchieri</title>
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="container">
+
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="left">Giovanni Bucchieri</a>
+        <a href="#">Work</a>
+        <a href="#">Biografi</a>
+        <a href="#">Press</a>
+        <a href="#">Contact</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+
+      <!--/ VIDEOLINK -->
+      <div class="responsive-container">
+      <iframe src="https://player.vimeo.com/video/293080575?color=7973bd&title=0&byline=0&portrait=0&badge=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+
+      <!--/ FILMINFO -->
+      <ul class="filmnfo">
+        <li>Giovanni Bucchieri</li>
+        <li>Work 1</li>
+      </ul>
+
+
+
+      <!--/.container-->
+    </div>
+    <!--/.wrapper-->
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+
+</body>
+
+</html>
