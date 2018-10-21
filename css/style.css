@@ -125,12 +125,28 @@ p.rubrik {
 
 ul.contact {
   list-style: none;
-  text-align: center;
+  text-align: left;
   font-weight: 900;
   font-size: 0.9rem;
 }
 
 ul.contact li {
+  display: inline-block;
+  padding-top: 30px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  letter-spacing: 0.05em;
+}
+
+ul.contact-center {
+  list-style: none;
+  text-align: center;
+  font-weight: 900;
+  font-size: 0.9rem;
+}
+
+ul.contact-center li {
   display: inline-block;
   padding-top: 30px;
   padding-right: 0px;
