@@ -14,22 +14,23 @@ body {
 
 a {
   text-decoration: underline;
-  color: #000;
+  color: #0000EE;
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #000;
+  color: #0000EE;
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:visited {
-  color: #000;
+  color: #0000EE;
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: underline;
@@ -159,7 +160,7 @@ ul.nav {
   list-style: none;
   text-align: left;
   padding-top: 4px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 ul.nav li {
@@ -198,7 +199,7 @@ p.alert:target {
 ul.hit {
   list-style: none;
   text-align: left;
-  padding-top: 12px;
+  padding-top: 20px;
   padding-bottom: 30px;
 }
 
