@@ -5,6 +5,7 @@
 
 body {
   background-color: #fff;
+  background:linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
   font: .8em/150% Arial, Helvetica, sans-serif;
   color: #000;
   font-weight: bold;
