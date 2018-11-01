@@ -106,9 +106,9 @@ ul.rubrik {
 
 ul.rubrik li {
   display: inline-block;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-right: 0px;
-  padding-bottom: 5px;
+  padding-bottom: 0px;
   padding-left: 0px;
   letter-spacing: 0.05em;
 }
