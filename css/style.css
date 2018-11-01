@@ -148,7 +148,7 @@ img.nav-bottom {
   /* this value + 2 should = 33% */
   font-size: 1rem;
   border-style: solid;
-  border-width: 1px 1px 1px 1px;
+  border-width: 0px 0px 0px 0px;
   border-color: #fff;
   vertical-align: top;
   box-sizing: border-box;
@@ -303,7 +303,7 @@ img.nav-bottom {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   border-style: solid;
-  border-width: 0px 1px 1px 1px;
+  border-width: 0px 0px 0px 0px;
   border-color: #fff;
 }
 
