@@ -145,7 +145,7 @@ ul.contact-center {
 
 ul.contact-center li {
   display: inline-block;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-right: 0px;
   padding-bottom: 0px;
   padding-left: 0px;
@@ -305,7 +305,7 @@ ul.grid-nav li {
   width: 50%;
   /* this value + 2 should = 33% */
   font-size: 1rem;
-  border: 1px solid #fff;
+  border: 0px solid #fff;
   vertical-align: top;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
