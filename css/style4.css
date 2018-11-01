@@ -24,16 +24,20 @@ img {
 }
 
 h1 {
-  font: bold 200% "Gill Sans","Gill Sans MT","Calibri",sans-serif;
+  color: #000;
+  font: bolder 200% Helvetica, Sans-Serif;
   letter-spacing: 1px;
 }
 
+
 h3 {
-  font: 16px "Gill Sans","Gill Sans MT","Calibri",sans-serif;
+  color: #000;
+  font: bold 16px Arial, Helvetica, sans-serif;
   text-transform: uppercase;
 }
 
 h4 {
+  color: #000;
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -42,12 +46,20 @@ h4 {
 hr {
   border: 0;
   height: 2px;
-  background-image: -webkit-linear-gradient(left, #fff, #DCDCDC, #fff);
-  background-image: -moz-linear-gradient(left, #fff, #DCDCDC, #fff);
-  background-image: -ms-linear-gradient(left, #fff, #DCDCDC, #fff);
-  background-image: -o-linear-gradient(left, #fff, #DCDCDC, #fff);
-  margin-top: 0px;
+  background-image: -webkit-linear-gradient(left, #DCDCDC, #fff, #DCDCDC);
+  background-image: -moz-linear-gradient(left, #DCDCDC, #fff, #DCDCDC);
+  background-image: -ms-linear-gradient(left, #DCDCDC, #fff, #DCDCDC);
+  background-image: -o-linear-gradient(left, #DCDCDC, #fff, #DCDCDC);
+  margin-top: 15px;
   margin-bottom: 15px;
+}
+
+p.rubrik {
+  letter-spacing: 0.05em;
+}
+
+img {
+  vertical-align: bottom;
 }
 
 .centered {
@@ -56,8 +68,9 @@ hr {
 
 .wrapper {
   width: 100%;
-  padding: 0px 0;
+  padding: 20px 0;
 }
+
 
 .container {
   width: 600px;
@@ -87,7 +100,8 @@ hr {
   padding-top: 30px;
   height: 0;
   overflow: hidden;
-  box-shadow: 0px 0px 0px #888888;
+  box-shadow: 10px 10px 20px #888888;
+  background-color: #fff;
 }
 
 .responsive-container iframe {
@@ -97,7 +111,6 @@ hr {
   width: 100%;
   height: 100%;
 }
-
 
 ul.rubrik {
   list-style: none;
@@ -125,19 +138,21 @@ ul.text li {
   padding-right: 0px;
   padding-bottom: 10px;
   padding-left: 0px;
-  letter-spacing: 1px;
+  letter-spacing: 0.03em;
 }
 
 img.nav-bottom {
   margin: 0px 5px;
 }
 
-
 /* ---------- Zoom container ---------- */
 
 .image-zoom-container {
   list-style: none;
   font-size: 0px;
+  border: 0px solid #000;
+  box-shadow: 10px 10px 20px #888888;
+  background-color: #fff;
 }
 
 .zoom-container {
@@ -172,10 +187,9 @@ img.nav-bottom {
 .zoom-container .zoom-caption h3 {
   display: none;
   text-align: center;
-  font: .9em/150% "Gill Sans","Gill Sans MT","Calibri",sans-serif;
-  color: #000;
+  font: 6.5em/150% Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  color: #000;
   margin: 18% 5% 0;
   padding: 0px 0;
 }
@@ -191,7 +205,7 @@ img.nav-bottom {
 @media (max-width: 600px) {
   .container {
     width: auto;
-    padding: 0 0px;
+    padding: 0 10px;
   }
 }
 
@@ -221,7 +235,7 @@ img.nav-bottom {
   width: 25%;
   /* this value + 2 should = 33% */
   font-size: 12px;
-  border: 0px solid #fff;
+  border: 1px solid #fff;
   vertical-align: top;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -264,21 +278,21 @@ img.nav-bottom {
 @media (max-width: 600px) {
   .container {
     width: auto;
-    padding: 0 0px;
+    padding: 0 10px;
   }
 }
 
 @media (max-width: 600px) {
   .container {
     width: auto;
-    padding: 0 0px;
+    padding: 0 10px;
   }
 }
 
 @media (max-width: 480px) {
   .container {
     width: auto;
-    padding: 0 0px;
+    padding: 0 10px;
   }
 }
 
@@ -287,6 +301,9 @@ img.nav-bottom {
 .image-zoom-container-max {
   list-style: none;
   font-size: 0px;
+  box-shadow: 10px 10px 20px #888888;
+  background-color: #fff;
+
 }
 
 .zoom-container-max {
@@ -300,7 +317,7 @@ img.nav-bottom {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  border: 0px solid #fff;
+  border: 0px solid #000;
 }
 
 .zoom-container-max img {
@@ -339,20 +356,20 @@ img.nav-bottom {
 @media (max-width: 600px) {
   .container {
     width: auto;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
   }
 }
 
 @media (max-width: 600px) {
   .container {
     width: auto;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
   }
 }
 
 @media (max-width: 480px) {
   .container {
     width: auto;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
   }
 }
