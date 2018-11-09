@@ -7,8 +7,13 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Recoleta', sans-serif}
+@font-face {
+    font-family: Recoleta;
+    src: url("font/Recoleta.otf") format("opentype");
+}
 body, html {
+  background-color: #000;
     height: 100%;
     color: #fff;
     line-height: 1.8;
@@ -78,11 +83,10 @@ body, html {
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#home" class="w3-bar-item w3-button"><img src="img/logo.png" height="20"></a>
+    <a href="#home" class="w3-bar-item w3-button"><img src="img/sisLogo.gif" height="20"></a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"> ABOUT</a>
     <a href="#media" class="w3-bar-item w3-button w3-hide-small"> MEDIA</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small"> GALLERY</a>
-    <a href="https://tictail.com" target="_blank" class="w3-bar-item w3-button w3-hide-small"> SHOP</a>
   </div>
 
   <!-- Navbar on small screens -->
@@ -90,14 +94,13 @@ body, html {
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
     <a href="#media" class="w3-bar-item w3-button" onclick="toggleFunction()">MEDIA</a>
     <a href="#" class="w3-bar-item w3-button" onclick="toggleFunction()">GALLERY</a>
-    <a href="https://tictail.com" target="_blank" class="w3-bar-item w3-button w3-hide-small"> SHOP</a>
   </div>
 </div>
 
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container" id="home">
   <div class="w3-display-middle w3-container w3-padding-64" style="white-space:nowrap;">
-    <span class="w3-center"><img src="img/sisLogo300.png"></span>
+    <span class="w3-center"><img src="img/sisLogo.gif" width="400"></span>
   </div>
 </div>
 
@@ -119,18 +122,11 @@ from Sister,, is out now on digital channels.
 Soothing children’s voices clash with heavy rhythms in a sumptous, orchestral arrangement – imagine The Knife ditching their sequencers and hiring Arcade Fire as a back-up band.
 The war is over from record is featured as the main song on the soundtrack to Swedish director Anna Odell’s award-winning feature film The Reunion, which premiered at the Venice Film Festival earlier this year.
 Come, you daughters.
-<br><br>
-Before becoming an musician and actor many regarded Giovanni Bucchieri as one of the most talented Swedish dancers of his generation.
-<br><br>
-He is also a self-taught classical pianist, composer, film director, choreographer and singer. Operating is such a wide field; Bucchieri could be described as the classical cultural polymath.
-<br><br>
-Giovanni Bucchieri spent his youth at Pizzeria Romana in Linköping. He established himself early as a prolific dancer, specialized in breakdance and in Street dance. At the age of 15 he moved to Stockholm. He traveled to New York at the age of 16. There he eagerly took part in the frantic club life of New York. It was here that Bucchieri’s love for Vogue was discovered, at various ballroom dances. It was also here that the seeds were sawn for his invented dance style Horse. Horse is a dance style closely connected with Greek elegies and modern Vogue. The style was created by Bucchieri as a reaction to, and as an antidote to, the drugs. As in the elegies of the Greek dramas, in Horse a kind of trans is reach. The dance is a highly stylized dance, through which stories and emotions -which are to difficult and taboo to talk about – are expressed.
 </p>
 
 <div class="w3-xlarge w3-section w3-center"><br>
   <i class="fa fa-facebook-official w3-hover-opacity"></i>&nbsp&nbsp
   <i class="fa fa-instagram w3-hover-opacity"></i>&nbsp&nbsp
-  <i class="fa fa-snapchat w3-hover-opacity"></i>&nbsp&nbsp
   <i class="fa fa-twitter w3-hover-opacity"></i>
 </div>
 </div>
@@ -159,15 +155,15 @@ Giovanni Bucchieri spent his youth at Pizzeria Romana in Linköping. He establis
 <script>
 
 // Change style of navbar on scroll
-window.onscroll = function() {myFunction()};
-function myFunction() {
-    var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-    } else {
-        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-    }
-}
+//window.onscroll = function() {myFunction()};
+//function myFunction() {
+//    var navbar = document.getElementById("myNavbar");
+//    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+//        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+//    } else {
+//        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+//    }
+//}
 
 // Used to toggle the menu on small screens when clicking on the menu button
 function toggleFunction() {
@@ -178,6 +174,7 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+
 </script>
 
 
