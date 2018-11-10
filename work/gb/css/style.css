@@ -161,6 +161,7 @@ ul.filmnfo {
 
 .zoom-container:hover h3 {
   display: block;
+  color: #ff7276;
 }
 
 .zoom-container:hover img {
