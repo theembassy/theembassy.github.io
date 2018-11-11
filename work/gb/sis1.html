@@ -84,6 +84,7 @@ img {
   display: block;
   width: 100%;
   height: auto;
+  margin: 10px 0 0;
 }
 
 .zoom-container .zoom-caption {
@@ -291,7 +292,8 @@ img {
 <!-- Header / Home-->
 <header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
   <div class="w3-display-middle w3-text-white w3-center">
-    <span class="w3-center"><img src="img/logo.gif" width="250"></span>
+    <div class="image-zoom-container-max">
+      <div class="zoom-container-max"><img src="img/logo.gif"><br></div></div>
   </div>
 </header>
 
@@ -391,7 +393,8 @@ img {
     </div>
 
     <footer class="w3-center w3-padding-16">
-      <p><a href="#home" class="w3-button w3-light-grey">To the top</a></p>
+      <br><br>
+      <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
     </footer>
 
   </div>
@@ -406,15 +409,15 @@ img {
 <script>
 
 // Change style of navbar on scroll
-//window.onscroll = function() {myFunction()};
-//function myFunction() {
-//    var navbar = document.getElementById("myNavbar");
-//    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-//        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-//    } else {
-//        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-//    }
-//}
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
 
 // Used to toggle the menu on small screens when clicking on the menu button
 function toggleFunction() {
@@ -426,42 +429,6 @@ function toggleFunction() {
     }
 }
 
-function openModal() {
-  document.getElementById('myModal').style.display = "block";
-}
-
-function closeModal() {
-  document.getElementById('myModal').style.display = "none";
-}
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
 </script>
 
 </body>
