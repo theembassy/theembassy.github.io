@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="The Embassy, White Lake" />
+	<meta name="keywords" content="euromix, unity, beats" />
+	<meta name="viewport" content="width=device-width" />
+
+	<link rel="shortcut icon" href="img/pearr.ico" />
+
+	<style>
+
+body,html{
+    margin:0;
+    padding:0;
+	  height:100%;
+  }
+
+  .box{
+    height:100%;
+    width:100%;
+  }
+
+  .gradDynamic{
+    position:relative;
+  }
+
+  .gradDynamic:after, .gradDynamic:before{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    content:"";
+    z-index:-1;
+  }
+
+  .gradDynamic:after{
+    background:radial-gradient(circle,red,transparent);
+    background-size:400%;
+    animation:colorSpin 30s linear infinite;
+  }
+
+  .gradDynamic:before{
+    background-color:blue;
+  }
+
+  @keyframes colorSpin{
+    25%{background-position:0 100%}
+    50%{background-position:100% 100%}
+    75%{background-position:100% 0}
+    100%{filter:hue-rotate(360deg)}
+  }
+
+	</style>
+
+	<title>x</title>
+
+</head>
+
+<body>
+
+<div class="box gradDynamic"></div>
+
+</body>
+
+</html>
