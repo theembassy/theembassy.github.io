@@ -54,6 +54,10 @@ hr {
   text-align: center;
 }
 
+.linethrough {
+  text-decoration: line-through;
+}
+
 .wrapper {
   width: 100%;
   padding: 0px 0;
