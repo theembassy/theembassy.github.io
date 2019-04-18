@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html><head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script type="text/javascript" src="a_data/jquery-git.js"></script>
+
+
+      <script type="text/javascript" src="a_data/moment.js"></script>
+
+
+  <style type="text/css">
+
+
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 4vw;
+    font-family: "Trebuchet MS", Helvetica, monospace;
+    opacity: 0.8;
+}
+
+.bottomcenter {
+    position: absolute;
+    left: 0;
+    top: 89%;
+    width: 100%;
+    text-align: center;
+    font-size: 12.5vw;
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, "Lucida Grande", monospace;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+body {
+    background-image: url("bakgrund.png");
+    background-repeat: repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    animation:clouds_anim 350s linear infinite;
+}
+
+@keyframes clouds_anim{
+  0%{background-position: 0 0; }
+  100%{background-position: -30000px -30000px;}
+
+}
+
+
+
+
+
+
+
+  </style>
+
+  <title>SL BILJETT VUX</title>
+
+
+<script>
+// Find the right method, call on correct element
+function launchIntoFullscreen(element) {
+  if(element.requestFullscreen) {
+    element.requestFullscreen();
+  } else if(element.mozRequestFullScreen) {
+    element.mozRequestFullScreen();
+  } else if(element.webkitRequestFullscreen) {
+    element.webkitRequestFullscreen();
+  } else if(element.msRequestFullscreen) {
+    element.msRequestFullscreen();
+  }
+}
+
+// Launch fullscreen for browsers that support it!
+
+</script>
+
+
+
+
+<script type="text/javascript">
+$(window).on('load', function() {
+
+function startTimer(duration, display) {
+    var timer = duration, minutes, seconds;
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.text(minutes + ":" + seconds);
+
+        if (--timer < 0) {
+            timer = duration;
+        }
+    }, 1000);
+}
+
+jQuery(function ($) {
+    var fiveMinutes = 60 * 75,
+        display = $('#time');
+    startTimer(fiveMinutes, display);
+});
+
+
+
+document.getElementById("para1").innerHTML = formatAMPM();
+
+function formatAMPM() {
+var d = new Date(),
+    minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes(),
+    hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours(),
+    ampm = d.getHours() >= 12 ? 'pm' : 'am',
+    months = ['Januari','Februari','Mars','April','Maj','Juni','Juli','Augusti','September','Oktober','November','December'],
+    days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+return d.getDate()+' '+months[d.getMonth()]+' '+d.getFullYear();
+}
+
+
+
+
+});
+
+
+
+</script>
+
+
+</head>
+
+<body>
+
+
+
+<div class="container">
+
+
+  <img onclick="launchIntoFullscreen(document.documentElement)" src="a_data/905daGt.png" alt="Ticket" width="1000" height="300">
+
+
+  <div onclick="launchIntoFullscreen(document.documentElement)" class="center"><div id="para1">17 April 2018</div></div>
+  <div onclick="launchIntoFullscreen(document.documentElement)" class="bottomcenter">  <div><span id="time">74:53</span></div> </div>
+
+</div>
+
+
+
+
+  <script>
+  // tell the embed parent frame the height of the content
+  if (window.parent && window.parent.parent){
+    window.parent.parent.postMessage(["resultsFrame", {
+      height: document.body.getBoundingClientRect().height,
+      slug: "4Lwxf3xq"
+    }], "*")
+  }
+</script>
+
+
+
+
+
+</body></html>
