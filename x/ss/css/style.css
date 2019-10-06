@@ -37,10 +37,10 @@ h1.contact {
   letter-spacing: 1px;
 }
 
-h2.contact {
+h2 {
 	list-style: none;
-	text-align: center;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 h3.contact {
