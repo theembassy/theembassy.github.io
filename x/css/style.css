@@ -157,7 +157,7 @@ ul.nav {
   list-style: none;
   text-align: left;
   padding-top: 4px;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 }
 
 ul.nav li {
@@ -363,7 +363,7 @@ ul.grid-nav li {
 .zoom-container-mini .zoom-caption h3 {
   display: none;
   text-align: center;
-  font: .9em/150% "Gill Sans","Gill Sans MT","Calibri",sans-serif;
+  font: .8em/150% "Gill Sans","Gill Sans MT","Calibri",sans-serif;
   letter-spacing: 1px;
   color: #000;
   margin: 20% 5% 0;
