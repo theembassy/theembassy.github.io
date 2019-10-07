@@ -121,11 +121,12 @@ ul.cat-nav li {
 
 }
 .zoom-container .zoom-caption h3 {
-    display: none;
+  display: none;
 	text-align: center;
 	font: .8em/150% Arial, Helvetica, sans-serif;
 	letter-spacing: 1px;
 	color: #fff;
+  background-color: #000;
 	margin: 40% 0 0;
 	padding: 0px 0;
 }
@@ -143,7 +144,6 @@ ul.cat-nav li {
 }
 
 @media (max-width: 600px) {
-
 	.zoom-container {
 		width: 25%;
 	}
