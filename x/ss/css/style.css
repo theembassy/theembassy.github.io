@@ -31,9 +31,8 @@ a.textlink:hover {font-weight:100;}
 	margin: 0 auto;
 }
 
-h1.contact {
+h1 {
 	list-style: none;
-	text-align: center;
   letter-spacing: 1px;
 }
 
@@ -43,7 +42,7 @@ h2 {
   text-transform: uppercase;
 }
 
-h3.contact {
+h3 {
 	list-style: none;
 	text-align: center;
 }
