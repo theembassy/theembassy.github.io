@@ -43,21 +43,6 @@ h1, h2, h3 {
   text-transform: uppercase;
 }
 
-ul.nav {
-	list-style: none;
-	text-align: center;
-  padding-top: 0px;
-}
-
-ul.nav li {
-  display: inline-block;
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 5px;
-  padding-left: 0px;
-  letter-spacing: 0.01em;
-}
-
 ul.nfo {
 	list-style: none;
 	text-align: center;
@@ -72,14 +57,14 @@ ul.nfo li {
     padding-left: 0px;
 }
 
-ul.cat-nav {
+ul.cat {
   list-style: none;
   text-align: left;
   padding-top: 30px;
   padding-bottom: 10px;
 }
 
-ul.cat-nav li {
+ul.cat li {
   padding-top: 0px;
   padding-right: 0px;
   padding-bottom: 10px;
