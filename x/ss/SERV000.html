@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="Newbuild" />
+	<meta name="keywords" content="euromix, unity, beats" />
+	<meta name="viewport" content="width=device-width" />
+
+	<link rel="shortcut icon" href="http://theembassy.info/img/pearr.ico" />
+	<link href="css/style1.css" rel="stylesheet" />
+
+	<title>SERVICE</title>
+
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<div class="container">
+
+			<h1 class="centered">
+				<script>
+					var text = "SERVICE" // TEXT
+					var speed = 20 // SPEED OF FADE
+
+					if (document.all || document.getElementById) {
+						document.write('<span id="highlight">' + text + '</span>')
+						var storetext = document.getElementById ? document.getElementById("highlight") : document.all.highlight
+					} else
+						document.write(text)
+					var hex = new Array("00", "14", "28", "3C", "50", "64", "78", "8C", "A0", "B4", "C8", "DC", "F0")
+					var r = 1
+					var g = 1
+					var b = 1
+					var seq = 1
+
+					function changetext() {
+						rainbow = "#" + hex[r] + hex[g] + hex[b]
+						storetext.style.color = rainbow
+					}
+
+					function change() {
+						if (seq == 6) {
+							b--
+							if (b == 0)
+								seq = 1
+						}
+						if (seq == 5) {
+							r++
+							if (r == 12)
+								seq = 6
+						}
+						if (seq == 4) {
+							g--
+							if (g == 0)
+								seq = 5
+						}
+						if (seq == 3) {
+							b++
+							if (b == 12)
+								seq = 4
+						}
+						if (seq == 2) {
+							r--
+							if (r == 0)
+								seq = 3
+						}
+						if (seq == 1) {
+							g++
+							if (g == 12)
+								seq = 2
+						}
+						changetext()
+					}
+
+					function starteffect() {
+						if (document.all || document.getElementById)
+							flash = setInterval("change()", speed)
+					}
+					starteffect()
+				</script>
+
+			</h1>
+
+			<ul class="nav"><li></li></ul>
+
+			<div class="image-zoom-container-max">
+				<div class="zoom-container-max">
+					<a href="index.html"><img src="images/SERV000.jpg" /></a>
+				</div>
+			</div>
+
+			<ul class="cat-nav">
+				<li>
+					<h2>Service lived forever...</h2>
+				</li>
+				<li>
+					Service - free zone, pop lab, gang turf, permanent vacation. Never an object, always a territory. That's the lesson I've been teaching. In that sense I gave to you my life, my ambition, my hope. And some haine of course.And as promised, Service is deterritorialising. Both are carbon, remember: the diamond turns into pencil, tracing nomadic paths. And the music becomes weapon in the hands of new partisans.Now take it, it's yours..................................................."Why so hard!" - said to the diamond one day the charcoal; "are we then not near relatives?"Why so soft? O my brethren; thus do I ask you: are ye then not - my brethren?Why so soft, so submissive and yielding? Why is there so much negation and abnegation in your hearts? Why is there so little fate in your looks?And if ye will not be fates and inexorable ones, how can ye one day - conquer with me?And if your hardness will not glance and cut and chip to pieces, how can ye one day - create with me?/F. Nietzsche..................................................Service titles are available at Apple Music and Spotify.A Service decennium picture archive.
+				</li>
+				<li>
+					<H3>2001 - 2013</H3>
+				</li>
+			</ul>
+
+
+		</div>
+
+		<!--/.wrapper-->
+	</div>
+
+</body>
+
+</html>
