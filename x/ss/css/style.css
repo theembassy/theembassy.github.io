@@ -46,14 +46,14 @@ h1, h2, h3 {
 ul.nav {
 	list-style: none;
 	text-align: center;
-  padding-top: 5px;
+  padding-top: 0px;
 }
 
 ul.nav li {
   display: inline-block;
   padding-top: 0px;
   padding-right: 0px;
-  padding-bottom: 0px;
+  padding-bottom: 5px;
   padding-left: 0px;
   letter-spacing: 0.01em;
 }
