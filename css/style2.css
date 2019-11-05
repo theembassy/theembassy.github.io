@@ -124,7 +124,6 @@ img {
 
 ul.contact {
   list-style: none;
-  text-align: left;
   font-weight: 900;
   font-size: 0.9rem;
 }
@@ -155,7 +154,6 @@ ul.release li {
 
 ul.nav {
   list-style: none;
-  text-align: left;
   padding-top: 4px;
   padding-bottom: 20px;
 }
@@ -210,7 +208,6 @@ ul.hit li {
 
 ul.cat-nav {
   list-style: none;
-  text-align: left;
   padding-top: 30px;
   padding-bottom: 10px;
 }
