@@ -76,6 +76,10 @@ img {
   text-align: center;
 }
 
+.right {
+  text-align: right;
+}
+
 .wrapper {
   width: 100%;
   padding: 20px 0;
