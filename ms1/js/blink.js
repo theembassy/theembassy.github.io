@@ -1,5 +1,5 @@
 var text = "MARCUS S&Ouml;DERLUND"; // TEXT
-var speed = 300; // SPEED OF FADE
+var speed = 400; // SPEED OF FADE
 
 
 if (document.all||document.getElementById){
