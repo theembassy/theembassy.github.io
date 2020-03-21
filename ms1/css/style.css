@@ -36,7 +36,7 @@ h2 {color: #0000EE; font: bolder 100% Helvetica, Sans-Serif; letter-spacing: 0.8
 	padding: 20px 0;
 }
 .container {
-	width: 800px;
+	width: 1000px;
 	margin: 0 auto;
 }
 
@@ -46,7 +46,7 @@ h2 {color: #0000EE; font: bolder 100% Helvetica, Sans-Serif; letter-spacing: 0.8
 ul.contact {
 	list-style: none;
 	text-align: center;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 	padding-top: 10px;
 }
 
@@ -154,7 +154,7 @@ p.alert:target { display: none; }
   opacity: 1;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .container {
     width: auto;
     padding: 0px 10px 0px 10px;
