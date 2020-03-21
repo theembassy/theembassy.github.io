@@ -14,6 +14,7 @@
 
 </head>
 
+
 <body>
 
 	<div class="wrapper">
@@ -21,11 +22,11 @@
 
 			<ul class="contact">
 				<li><h1><script src="js/blink.js"></script></h1></li>
-				<li><h1>MUSIC VIDEO &nbsp; / &nbsp; COMMERCIAL</h1></li>
+				<li><h1><a href="move6.html">MUSIC VIDEO</a> &nbsp; / &nbsp; <a href="move6.html">COMMERCIAL</a></h1></li>
 			</ul>
 
 
-			<!--/ BILDER OCH BILDTEXTER BIG -->
+			<!--/ BILDER OCH BILDTEXTER BIG
 
 			<div class="image-zoom-container-max">
 				<div class="zoom-container-max">
@@ -37,8 +38,24 @@
 				</a>
 				</div>
 			</div>
+-->
 
+<div class="slideshow-container">
 
+<div class="mySlides"><img src="images/1.jpg" style="width:100%"></div>
+<div class="mySlides"><img src="images/2.jpg" style="width:100%"></div>
+<div class="mySlides"><img src="images/3.jpg" style="width:100%"></div>
+<div class="mySlides"><img src="images/4.jpg" style="width:100%"></div>
+<div class="mySlides"><img src="images/5.jpg" style="width:100%"></div>
+<div class="mySlides"><img src="images/6.jpg" style="width:100%"></div>
+<div class="mySlides"><img src="images/7.jpg" style="width:100%"></div>
+<div class="mySlides"><img src="images/8.jpg" style="width:100%"></div>
+<div class="mySlides"><img src="images/9.jpg" style="width:100%"></div>
+<div class="mySlides"><img src="images/10.jpg" style="width:100%"></div>
+<div class="mySlides"><img src="images/11.jpg" style="width:100%"></div>
+<div class="mySlides"><img src="images/12.jpg" style="width:100%"></div>
+
+</div>
 
 			<!--/ MENU -->
 
@@ -60,6 +77,27 @@
 		<!--/.wrapper-->
 	</div>
 
+	<script>
+	var slideIndex = 0;
+	showSlides();
+
+	function showSlides() {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = 12;
+	  for (i = 0; i < slides.length; i++) {
+	    slides[i].style.display = "none";
+	  }
+	  slideIndex++;
+	  if (slideIndex > slides.length) {slideIndex = 1}
+	  for (i = 0; i < dots.length; i++) {
+	    dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";
+
+	  setTimeout(showSlides, 500); // Change image every 2 seconds
+	}
+	</script>
 
 </body>
 
