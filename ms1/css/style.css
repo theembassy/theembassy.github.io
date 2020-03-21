@@ -33,10 +33,10 @@ h2 {color: #0000EE; font: bolder 100% Helvetica, Sans-Serif; letter-spacing: 0.8
 }
 .wrapper {
 	width: 100%;
-	padding: 20px 0;
+	padding: 0px 0;
 }
 .container {
-	width: 1000px;
+	width: 800px;
 	margin: 0 auto;
 }
 
@@ -52,7 +52,7 @@ ul.contact {
 	list-style: none;
 	text-align: center;
 	padding-bottom: 30px;
-	padding-top: 15px;
+	padding-top: 30px;
 }
 
 ul.contact li {
@@ -231,24 +231,24 @@ p.alert:target { display: none; }
 	opacity: 1;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   .container {
     width: auto;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 0px 0px 0px;
   }
 }
 
 @media (max-width: 600px) {
   .container {
     width: auto;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 0px 0px 0px;
   }
 }
 
 @media (max-width: 480px) {
   .container {
     width: auto;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 0px 0px 0px;
   }
 }
 
