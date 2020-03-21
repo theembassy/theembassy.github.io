@@ -35,14 +35,15 @@ h2 {color: #0000EE; font: bolder 100% Helvetica, Sans-Serif; letter-spacing: 0.8
 ul.contact {
 	list-style: none;
 	text-align: center;
+	padding-bottom: 20px;
 	padding-top: 10px;
 }
 
 ul.contact li {
     display: inline-block;
     padding-right: 30px;
-    padding-bottom: 30px;
     padding-left: 0px;
+		padding-bottom: 10px;
 }
 
 ul.represent {
@@ -58,17 +59,9 @@ ul.represent li {
     padding-left: 0px;
 }
 
-p.newbuild {
-	text-align: left;
-    padding-bottom: 5px;
-}
-
-p.alert:target { display: none; }
-
-
 ul.filmnfo {
     list-style: none;
-	text-align: center;
+		text-align: center;
     padding-top: 30px;
 }
 
@@ -86,6 +79,13 @@ ul.grid-nav li {
     padding-left: 0px;
     letter-spacing: 0.01em;
 }
+
+p.newbuild {
+	text-align: left;
+    padding-bottom: 5px;
+}
+
+p.alert:target { display: none; }
 
 /* ---------- Zoom container MAX ---------- */
 
