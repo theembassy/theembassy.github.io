@@ -35,13 +35,13 @@ h2 {color: #0000EE; font: bolder 100% Helvetica, Sans-Serif; letter-spacing: 0.8
 ul.contact {
 	list-style: none;
 	text-align: center;
+	padding-top: 10px;
 }
 
 ul.contact li {
     display: inline-block;
-    padding-top: 0px;
     padding-right: 30px;
-    padding-bottom: 0px;
+    padding-bottom: 30px;
     padding-left: 0px;
 }
 
@@ -49,11 +49,11 @@ ul.represent {
 	list-style: none;
 	text-align: center;
   padding-bottom: 20px;
+	padding-top: 30px;
 }
 
 ul.represent li {
     display: inline-block;
-    padding-top: 0px;
     padding-right: 15px;
     padding-left: 0px;
 }
@@ -68,7 +68,7 @@ p.alert:target { display: none; }
 
 ul.filmnfo {
     list-style: none;
-	text-align: left;
+	text-align: center;
     padding-top: 30px;
 }
 
