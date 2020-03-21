@@ -6,15 +6,16 @@
 
 body {
 	font: .9em/150% Arial, Helvetica, sans-serif;
-	color: #000;
+	color: #fff;
   display: block;
+	background-color: #000;
 }
 
-a {color: #0000EE; text-decoration: none; letter-spacing: 0.8px}
-a:hover {text-decoration: underline; color: #0000EE}
-a:visited { color: #0000EE;}
-a.droplink {color:#0000EE;}
-h1 {color: #000; font: bolder 120% Helvetica, Sans-Serif; letter-spacing: 0.8px; text-transform: uppercase}
+a {color: #08f26e; text-decoration: none; letter-spacing: 0.8px}
+a:hover {text-decoration: underline; color: #08f26e}
+a:visited { color: #08f26e;}
+a.droplink {color:#08f26e;}
+h1 {color: #fff; font: bolder 120% Helvetica, Sans-Serif; letter-spacing: 0.8px; text-transform: uppercase}
 h2 {color: #0000EE; font: bolder 100% Helvetica, Sans-Serif; letter-spacing: 0.8px; text-transform: uppercase}
 
 .centered {
@@ -34,7 +35,7 @@ h2 {color: #0000EE; font: bolder 100% Helvetica, Sans-Serif; letter-spacing: 0.8
 
 ul.contact {
 	list-style: none;
-	text-align: center;
+	text-align: left;
 }
 
 ul.contact li {
@@ -47,7 +48,7 @@ ul.contact li {
 
 ul.represent {
 	list-style: none;
-	text-align: center;
+	text-align: left;
   padding-bottom: 20px;
 }
 
@@ -92,7 +93,7 @@ ul.grid-nav li {
 .image-zoom-container-max {
   list-style: none;
   font-size: 0px;
-	box-shadow: 10px 10px 20px #888888;
+	box-shadow: 0px 0px 0px #888888;
 
 }
 
