@@ -7,6 +7,7 @@
 	<meta name="keywords" content="euromix, unity, beats" />
 	<meta name="viewport" content="width=device-width" />
 
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
 	<link rel="shortcut icon" href="https://theembassy.github.io/images/pearr.ico" />
 	<link href="css/style.css" rel="stylesheet" />
 
@@ -20,17 +21,12 @@
 		<div class="container">
 
 			<ul class="contact">
-				<li><h1><a href="http://marcussoderlund.se">MARCUS S&Ouml;DERLUND</a></h1></li>
-				<br>
-				<li><a href="tel:+46739380209">+46739380209</a></li>
-				<li>info@marcussoderlund.se</li>
-			</ul>
-
-			<ul class="represent">
-				<li>Representation:</li>
-				<li>SWEDEN <a href="http://indio.se/artist/marcus-soderlund" target="_blank" class="textlink">Indio</a></li>
-				<li>US <a href="http://www.resetcontent.com/marcus-soderlund" target="_blank" class="textlink">Reset Content</a></li>
-				<li>UK <a href="http://www.academyfilms.com/marcus-sderlund" target="_blank" class="textlink">Academy Films</a></li>
-				<li>FRANCE <a href="http://henry.tv/director/marcus-soderlund" target="_blank" class="textlink">Henry</a></li>
-				<li>GERMANY <a href=" http://www.iconoclast.tv/de/marcus-soderlund/nature-valley-be-a-powerful-force" target="_blank" class="textlink">Iconoclast</a></li>
+				<li><a class="noline" href="http://www.marcussoderlund.se/">
+						<h1>
+							<script src="js/blink.js"></script>
+						</h1>
+					</a></li>
+				<li>
+					<h2><a class="noline" href="music.php">MUSIC VIDEO</a>&nbsp; / &nbsp;<a class="noline" href="commercial.php">COMMERCIAL</a></h2>
+				</li>
 			</ul>

@@ -15,39 +15,45 @@
 
 </head>
 
-
 <body>
 
 	<div class="wrapper">
 		<div class="containerK">
 
 			<ul class="contact">
-				<li><h1><script src="js/blink.js"></script></h1></li>
-				<li><h2><a class="noline" href="music.html">MUSIC VIDEO</a>&nbsp; / &nbsp;<a class="noline" href="commercial.html">COMMERCIAL</a></h2></li>
+				<li>
+					<h1>
+						<script src="js/blink.js"></script>
+					</h1>
+				</li>
+				<li>
+					<h2><a class="noline" href="music.html">MUSIC VIDEO</a>&nbsp; / &nbsp;<a class="noline" href="commercial.html">COMMERCIAL</a></h2>
+				</li>
 			</ul>
 
+			<!--/ BILDER -->
 
-<div class="slideshow-container">
+			<div class="slideshow-container">
 
-<div class="mySlides"><img src="images/1.jpg" style="width:100%"></div>
-<div class="mySlides"><img src="images/2.jpg" style="width:100%"></div>
-<div class="mySlides"><img src="images/3.jpg" style="width:100%"></div>
-<div class="mySlides"><img src="images/4.jpg" style="width:100%"></div>
-<div class="mySlides"><img src="images/5.jpg" style="width:100%"></div>
-<div class="mySlides"><img src="images/6.jpg" style="width:100%"></div>
-<div class="mySlides"><img src="images/7.jpg" style="width:100%"></div>
-<div class="mySlides"><img src="images/8.jpg" style="width:100%"></div>
-<div class="mySlides"><img src="images/9.jpg" style="width:100%"></div>
-<div class="mySlides"><img src="images/10.jpg" style="width:100%"></div>
-<div class="mySlides"><img src="images/11.jpg" style="width:100%"></div>
-<div class="mySlides"><img src="images/12.jpg" style="width:100%"></div>
+				<div class="msSlide"><img src="images/1.jpg" style="width:100%"></div>
+				<div class="msSlide"><img src="images/2.jpg" style="width:100%"></div>
+				<div class="msSlide"><img src="images/3.jpg" style="width:100%"></div>
+				<div class="msSlide"><img src="images/4.jpg" style="width:100%"></div>
+				<div class="msSlide"><img src="images/5.jpg" style="width:100%"></div>
+				<div class="msSlide"><img src="images/6.jpg" style="width:100%"></div>
+				<div class="msSlide"><img src="images/7.jpg" style="width:100%"></div>
+				<div class="msSlide"><img src="images/8.jpg" style="width:100%"></div>
+				<div class="msSlide"><img src="images/9.jpg" style="width:100%"></div>
+				<div class="msSlide"><img src="images/10.jpg" style="width:100%"></div>
+				<div class="msSlide"><img src="images/11.jpg" style="width:100%"></div>
+				<div class="msSlide"><img src="images/12.jpg" style="width:100%"></div>
 
-</div>
+			</div>
 
 			<!--/ MENU -->
 
 			<ul class="represent">
-					<!--/<li><h1>CONTACT</h1></li>-->
+				<!--/<li><h1>CONTACT</h1></li>-->
 				<li><a href="tel:+46739380209">+46739380209</a></li>
 				<li>info@marcussoderlund.se</li>
 				<br>
@@ -67,25 +73,27 @@
 	</div>
 
 	<script>
-	var slideIndex = 0;
-	showSlides();
+		var slideIndex = 0;
+		showSlides();
 
-	function showSlides() {
-	  var i;
-	  var slides = document.getElementsByClassName("mySlides");
-	  var dots = 12;
-	  for (i = 0; i < slides.length; i++) {
-	    slides[i].style.display = "none";
-	  }
-	  slideIndex++;
-	  if (slideIndex > slides.length) {slideIndex = 1}
-	  for (i = 0; i < dots.length; i++) {
-	    dots[i].className = dots[i].className.replace(" active", "");
-	  }
-	  slides[slideIndex-1].style.display = "block";
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("msSlide");
+			var dots = 12;
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) {
+				slideIndex = 1
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex - 1].style.display = "block";
 
-	  setTimeout(showSlides, 1700); // Change image
-	}
+			setTimeout(showSlides, 1700); // Change image
+		}
 	</script>
 
 
