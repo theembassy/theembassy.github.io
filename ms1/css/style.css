@@ -24,11 +24,12 @@ body {
 
 a {color: #0000EE; text-decoration: none; letter-spacing: 0.8px}
 a:hover {text-decoration: underline; color: #0000EE}
-a:visited { color: #0000EE;}
+a:visited {color: #0000EE;}
 a.droplink {color:#0000EE;}
-a.noline {text-decoration: none;}
+a.noline {text-decoration: none; color:#000;}
+a.black {color:#000;}
 h1 {color: #000; font-size: 1.5em; font-weight: 900; letter-spacing: 1.7px; text-transform: uppercase; padding-right: 25px; padding-left: 25px;}
-h2 {color: #0000EE; font-size: 1.25em; letter-spacing: 1.7px; text-transform: uppercase;}
+h2 {color: #000; font-size: 1.25em; letter-spacing: 1.7px; text-transform: uppercase;}
 
 .centered {
 	text-align: center;
