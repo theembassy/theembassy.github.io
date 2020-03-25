@@ -142,7 +142,6 @@ ul.represent li {
   padding-bottom: 2.2px;
 }
 
-
 ul.filmnfo {
   list-style: none;
   text-align: center;
@@ -156,8 +155,18 @@ ul.filmnfo li {
   padding-bottom: 2.2px;
 }
 
+ul.featnfo {
+  list-style: none;
+  text-align: left;
+  padding-bottom: 0px;
+  padding-top: 35px;
+}
 
-
+ul.featnfo li {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 8px;
+}
 
 /* ---------- Zoom container MAX ---------- */
 .image-zoom-container-max {
