@@ -158,8 +158,8 @@ ul.filmnfo li {
 ul.featnfo {
   list-style: none;
   text-align: left;
-  padding-bottom: 0px;
-  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-top: 25px;
 }
 
 ul.featnfo li {
