@@ -139,7 +139,7 @@ ul.represent li {
   display: inline-block;
   padding-right: 5px;
   padding-left: 5px;
-  padding-bottom: 2.2px;
+  padding-bottom: 1.6px;
   font-size: 0.8em;
   letter-spacing: 1.1px;
 }
@@ -148,13 +148,13 @@ ul.filmnfo {
   list-style: none;
   text-align: center;
   padding-bottom: 0px;
-  padding-top: 35px;
+  padding-top: 37px;
 }
 
 ul.filmnfo li {
   padding-right: 0px;
   padding-left: 0px;
-  padding-bottom: 2.2px;
+  padding-bottom: 2.4px;
   font-size: 0.9em;
   letter-spacing: 1.7px;
 }
@@ -163,7 +163,7 @@ ul.featnfo {
   list-style: none;
   text-align: left;
   padding-bottom: 20px;
-  padding-top: 25px;
+  padding-top: 30px;
 }
 
 ul.featnfo li {
