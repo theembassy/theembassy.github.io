@@ -289,12 +289,12 @@ ul.featnfo li {
 .zoom-container .zoom-caption h3 {
   display: none;
   text-align: center;
-  font: .8em/150%;
+  font-size: 90%;
   text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 1.4;
   color: #fff;
-  margin: 17% 0% 0;
+  margin: 21% 0% 0;
   padding: 0px 0;
 }
 
