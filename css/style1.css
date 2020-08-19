@@ -141,21 +141,6 @@ ul.contact li {
   letter-spacing: 0.05em;
 }
 
-ul.release {
-  list-style: none;
-  text-align: left;
-  padding-top: 30px;
-  padding-bottom: 10px;
-}
-
-ul.release li {
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 10px;
-  padding-left: 0px;
-  letter-spacing: 0.03em;
-}
-
 ul.nav {
   list-style: none;
   padding-top: 4px;
@@ -171,49 +156,10 @@ ul.nav li {
   position: relative;
 }
 
-ul.txt-nav {
-  list-style: none;
-  text-align: left;
-  padding-top: 15px;
-}
-
-ul.txt-nav li {
-  display: inline-block;
-  padding-top: 0px;
-  padding-right: 5px;
-  padding-left: 0px;
-  letter-spacing: 0.03em;
-  position: relative;
-}
-
-p.newbuild {
-  text-align: left;
-  padding-bottom: 5px;
-}
-
-p.alert:target {
-  display: none;
-}
-
-ul.hit {
-  list-style: none;
-  text-align: left;
-  padding-top: 20px;
-  padding-bottom: 30px;
-}
-
-ul.hit li {
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 2px;
-  padding-left: 0px;
-  letter-spacing: 0.03em;
-}
-
 ul.cat-nav {
   list-style: none;
   padding-top: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 ul.cat-nav li {
@@ -235,20 +181,6 @@ ul.cat-nav li.txt2 {
   color: #ff0000;
 }
 
-ul.grid-nav {
-  list-style: none;
-  text-align: left;
-  padding-top: 20px;
-}
-
-ul.grid-nav li {
-  display: inline-block;
-  padding-top: 0px;
-  padding-right: 15px;
-  padding-bottom: 3px;
-  padding-left: 0px;
-  letter-spacing: 0.02em;
-}
 
 /* ---------- Zoom container ---------- */
 
