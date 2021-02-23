@@ -1,0 +1,186 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Yearly Archive\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-03 20:29+0000\n"
+"PO-Revision-Date: 2019-01-07 22:32+0000\n"
+"Last-Translator: Webmaster Friezenbuurt Commissie <it@friezenbuurt.nl>\n"
+"Language-Team: Nederlands\n"
+"Language: nl-NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0.2"
+
+#: admin/views/admin.php:35
+msgid "Settings successfully updated!"
+msgstr "Instellingen succesvol bijgewerkt"
+
+#: admin/views/admin.php:49
+msgid "Simple Yearly Archive Options"
+msgstr "Simple Yearly Archive Opties"
+
+#: admin/views/admin.php:56
+msgid "Customize the archive output"
+msgstr "de archief uitvoer aanpassen"
+
+#: admin/views/admin.php:61
+msgid "Date format"
+msgstr "Datum formaat"
+
+#: admin/views/admin.php:63
+msgid "Examples"
+msgstr "Voorbeelden"
+
+#: admin/views/admin.php:65
+#, php-format
+msgid "Check <a href=\"%s\" target=\"_blank\">here</a> for date formatting"
+msgstr "Check <a href=\"%s\" target=\"_blank\">here</a> voor datum formaten"
+
+#: admin/views/admin.php:71
+msgid "Seperator between date and post title"
+msgstr "Scheidingsteken tussen datum en bericht titel"
+
+#: admin/views/admin.php:79
+msgid "Before / After (Year headline)"
+msgstr "Voor / Na (Jaar titel)"
+
+#: admin/views/admin.php:87
+msgid "Linked years?"
+msgstr "Gelinkte jaren?"
+
+#: admin/views/admin.php:96
+msgid "Collapsible years?"
+msgstr "Inklappen jaren?"
+
+#: admin/views/admin.php:97
+msgid "Disables the \"Linked years?\" option"
+msgstr "Schakel de optie \"Gelinkte jaren?\" uit"
+
+#: admin/views/admin.php:106
+msgid "Anchored overview at the top?"
+msgstr "Ankerlink overzicht bovenin?"
+
+#: admin/views/admin.php:114
+msgid "Show post count for each year?"
+msgstr "Toon bericht aantal voor elk jaar?"
+
+#: admin/views/admin.php:122
+msgid "Show comments count for each post?"
+msgstr "Toon aantal commentaren voor elk bericht?"
+
+#: admin/views/admin.php:130
+msgid "Show categories after each post?"
+msgstr "Toon categorieën na elke bericcht?"
+
+#: admin/views/admin.php:138
+msgid "Show tags after each post?"
+msgstr "Toon lables achter elk bericht?"
+
+#: admin/views/admin.php:146
+msgid "Show post author after each post?"
+msgstr "Toon bericht auteur na elk bericht?"
+
+#: admin/views/admin.php:154
+msgid "Show optional Excerpt (if available)?"
+msgstr "Toon optionele Excerpt (indien beschikbaar)?"
+
+#: admin/views/admin.php:162
+msgid "Max. chars of Excerpt (0 for default)"
+msgstr "Max. Char van Excerpt (0 is standaard)"
+
+#: admin/views/admin.php:170
+msgid "Indentation of Excerpt (in px)"
+msgstr "Inspringen van Excerpt (in px)"
+
+#: admin/views/admin.php:178
+msgid "Show post thumbnail (if available)?"
+msgstr "Toon miniatuurafbeelding (indien beschikbaar)?"
+
+#: admin/views/admin.php:186
+msgid "Post thumbnail size"
+msgstr "Bericht miniatuurafbeelding afmeting"
+
+#: admin/views/admin.php:186
+#, php-format
+msgid "Configure <a href=\"%s\" target=\"_blank\">here</a>!"
+msgstr "Configureer <a href=\"%s\" target=\"_blank\">hier</a>!"
+
+#: admin/views/admin.php:203 admin/views/admin.php:227
+msgid "Update Options"
+msgstr "Opties bijwerken"
+
+#: admin/views/admin.php:210
+msgid "Miscellaneous Options"
+msgstr "Diverse Opties"
+
+#: admin/views/admin.php:214
+msgid "Link back to my website in plugin footer? :)"
+msgstr "Link terug naar mijn website in plugin voettekst? :)"
+
+#: admin/views/admin.php:220
+msgid "Reverse order?"
+msgstr "Omgekeerde volgorde?"
+
+#: admin/views/admin.php:235
+msgid "More of my WordPress plugins"
+msgstr "Meer van mijn Wordpress plugins"
+
+#: admin/views/admin.php:240
+msgid "You may also be interested in some of my other plugins:"
+msgstr "Mischien bent u ook geintereseerd in andere plugins van mij:"
+
+#: admin/views/admin.php:241
+msgid "Show other plugins by this author inline &raquo;"
+msgstr "Toon andere plugins van deze auteur &raquo;"
+
+#: admin/views/admin.php:254
+msgid ""
+"More plugins at: <a class=\"button rbutton\" href=\"http://www.schloebe."
+"de/portfolio/\" target=\"_blank\">www.schloebe.de</a>"
+msgstr ""
+"Meer plugins op: <a class=\"button rbutton\" href=\"http://www.schloebe."
+"de/portfolio/\" target=\"_blank\">www.schloebe.de</a>"
+
+#: admin/views/admin.php:263
+msgid "Help"
+msgstr "Help"
+
+#: admin/views/admin.php:268
+msgid ""
+"If you are new to using this plugin or cant understand what all these "
+"settings do, please read the documentation at <a href=\"http://www.schloebe."
+"de/wordpress/simple-yearly-archive-plugin/\" target=\"_blank\">http://www."
+"schloebe.de/wordpress/simple-yearly-archive-plugin/</a>"
+msgstr ""
+"Als u nog niet bekend bent met het gebruik van deze plug-in of niet weet wat "
+"al deze instellingen doen, lees dan de documentatie op <a href = \"http:"
+"//www.schloebe.de/wordpress/simple-yearly-archive-plugin/\" target = "
+"\"_blank\"> http://www.schloebe.de/wordpress/simple-yearly-archive-plugin/ "
+"</a>"
+
+#: admin/views/admin.php:286
+msgid "About Simple Yearly Archive"
+msgstr "Over Simply Yearly Archive"
+
+#. Name of the plugin
+msgid "Simple Yearly Archive"
+msgstr "Simple Yearly Archive"
+
+#. Description of the plugin
+msgid "A simple, clean yearly list of your archives."
+msgstr "Een simpele , helder jaarlijst van u archieven."
+
+#. URI of the plugin
+msgid "http://www.schloebe.de/wordpress/simple-yearly-archive-plugin/"
+msgstr "http://www.schloebe.de/wordpress/simple-yearly-archive-plugin/"
+
+#. Author of the plugin
+msgid "Oliver Schl&ouml;be"
+msgstr "Oliver Schl&ouml;be"
+
+#. Author URI of the plugin
+msgid "https://www.schloebe.de/"
+msgstr "https://www.schloebe.de/"

@@ -1,0 +1,166 @@
+# German (de_DE) translation for Simple Yearly Archive.
+# Copyright (C) 2007 Oliver Schl&ouml;be.
+# This file is distributed under the same license as the WordPress package.
+# Oliver Schl&ouml;be <webmaster@schloebe.de>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Yearly Archive in italiano\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-08-05 17:56+0100\n"
+"PO-Revision-Date: 2010-09-13 06:37+0900\n"
+"Last-Translator: BNG NET <webmaster@bng.net>\n"
+"Language-Team: BNG NET <webmaster@bng.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: D:\\schloebeweb\\xampp\\htdocs\\wordpresssource\\plugins\\simple-yearly-archive\n"
+"X-Poedit-SearchPath-1: C:\\Dokumente und Einstellungen\\OSchloebe\\Desktop\\dev\\simple-yearly-archive\\trunk\n"
+
+#: simple-yearly-archive.php:474
+#: simple-yearly-archive.php:592
+msgid "Simple Yearly Archive Options"
+msgstr "年号別アーカイブの設定"
+
+#: simple-yearly-archive.php:456
+#: simple-yearly-archive.php:458
+#: simple-yearly-archive.php:474
+msgid "Simple Yearly Archive"
+msgstr "年号別アーカイブ"
+
+#: simple-yearly-archive.php:544
+msgid "Settings successfully updated!"
+msgstr "設定更新成功！"
+
+#: simple-yearly-archive.php:599
+msgid "Customize the archive output"
+msgstr "アーカイブ出力のカスタマイズ"
+
+#: simple-yearly-archive.php:604
+msgid "Date format"
+msgstr "日付の書式"
+
+#: simple-yearly-archive.php:608
+msgid "(Check <a href=\"http://php.net/date\" target=\"_blank\">http://php.net/date</a> for date formatting)"
+msgstr "(日付の書式は「<a href=\"http://php.net/date\" target=\"_blank\">http://php.net/date</a>」を参照)"
+
+#: simple-yearly-archive.php:614
+msgid "Seperator between date and post title"
+msgstr "日付と記事タイトルのセパレータ"
+
+#: simple-yearly-archive.php:630
+msgid "Linked years?"
+msgstr "年号にリンクしますか？"
+
+#: simple-yearly-archive.php:622
+msgid "Before / After (Year headline)"
+msgstr "前 / 後 (年号表示)"
+
+#: simple-yearly-archive.php:708
+msgid "Update Options"
+msgstr "設定更新"
+
+#: simple-yearly-archive.php:745
+msgid "Help"
+msgstr "ヘルプ"
+
+#: simple-yearly-archive.php:750
+msgid "If you are new to using this plugin or cant understand what all these settings do, please read the documentation at <a href=\"http://www.schloebe.de/wordpress/simple-yearly-archive-plugin/\" target=\"_blank\">http://www.schloebe.de/wordpress/simple-yearly-archive-plugin/</a>"
+msgstr "このプラグインを初めて利用する方、設定内容がよくわからない方は、「<a href=\"http://www.schloebe.de/wordpress/simple-yearly-archive-plugin/\" target=\"_blank\">http://www.schloebe.de/wordpress/simple-yearly-archive-plugin/</a>」にアクセスしてドキュメントをお読みください。"
+
+#: simple-yearly-archive.php:327
+msgid "Plugin by"
+msgstr "作成者: "
+
+#: simple-yearly-archive.php:638
+msgid "Show post count for each year?"
+msgstr "各年毎に記事数を表示しますか？"
+
+#: simple-yearly-archive.php:646
+msgid "Show comments count for each post?"
+msgstr "各記事毎にコメント数を表示しますか？"
+
+#: simple-yearly-archive.php:697
+msgid "Miscellaneous Options"
+msgstr "その他設定"
+
+#: simple-yearly-archive.php:701
+msgid "Link back to my website in plugin footer? :)"
+msgstr "プラグインのフッターで作者サイトにリンクしますか？ :)"
+
+#: simple-yearly-archive.php:670
+msgid "Show optional Excerpt (if available)?"
+msgstr "概要を表示しますか (可能な場合) ？"
+
+#: simple-yearly-archive.php:678
+msgid "Max. chars of Excerpt (0 for default)"
+msgstr "概要の最大文字数 (デフォルトは 0)"
+
+#: simple-yearly-archive.php:686
+msgid "Indentation of Excerpt (in px)"
+msgstr "概要のインデント値 (単位: px)"
+
+#: simple-yearly-archive.php:654
+msgid "Show categories after each post?"
+msgstr "各記事毎にカテゴリを表示しますか？"
+
+#: authorplugins.inc.php:32
+msgid "Visit plugin homepage"
+msgstr "プラグインのホームページに行く"
+
+#: authorplugins.inc.php:35
+msgid "plugin"
+msgstr "プラグイン"
+
+#: authorplugins.inc.php:35
+#: simple-yearly-archive.php:761
+msgid "Version"
+msgstr "バージョン"
+
+#: authorplugins.inc.php:35
+#: simple-yearly-archive.php:761
+msgid "Author"
+msgstr "作成者"
+
+#: simple-yearly-archive.php:209
+#: simple-yearly-archive.php:293
+msgid "by"
+msgstr ":"
+
+#: simple-yearly-archive.php:662
+msgid "Show post author after each post?"
+msgstr "各記事毎に作成者を表示しますか？"
+
+#: simple-yearly-archive.php:717
+msgid "More of my WordPress plugins"
+msgstr "同一作者によるその他 WordPress プラグイン"
+
+#: simple-yearly-archive.php:722
+msgid "You may also be interested in some of my other plugins:"
+msgstr "作者によるその他プラグインに興味がおありの場合:"
+
+#: simple-yearly-archive.php:723
+msgid "Show other plugins by this author inline &raquo;"
+msgstr "同一作者によるその他プラグインを表示 &raquo;"
+
+#: simple-yearly-archive.php:735
+msgid "More information at: <a href=\"http://extend.schloebe.de\" target=\"_blank\">http://extend.schloebe.de</a>"
+msgstr "詳細な情報の入手先: <a href=\"http://extend.schloebe.de\" target=\"_blank\">http://extend.schloebe.de</a>"
+
+#: simple-yearly-archive.php:96
+msgid "Settings"
+msgstr "設定"
+
+#: simple-yearly-archive.php:322
+msgid "No posts found."
+msgstr "記事が見当たりません。"
+
+#: simple-yearly-archive.php:768
+msgid "About Simple Yearly Archive"
+msgstr "年号別アーカイブプラグインについて"
+

@@ -1,0 +1,164 @@
+# German (de_DE) translation for Simple Yearly Archive.
+# Copyright (C) 2007 Oliver Schl&ouml;be.
+# This file is distributed under the same license as the WordPress package.
+# Oliver Schl&ouml;be <webmaster@schloebe.de>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Yearly Archive in Russian\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-08-05 17:56+0100\n"
+"PO-Revision-Date: 2010-01-25 08:59+0800\n"
+"Last-Translator: Mariana Ma <marianama@live.com>\n"
+"Language-Team: Grugl.Me | http://grugl.me <dimitry83@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+
+#: simple-yearly-archive.php:474
+#: simple-yearly-archive.php:592
+msgid "Simple Yearly Archive Options"
+msgstr "Simple Yearly Archive 简单年度归档设置"
+
+#: simple-yearly-archive.php:456
+#: simple-yearly-archive.php:458
+#: simple-yearly-archive.php:474
+msgid "Simple Yearly Archive"
+msgstr "年度归档"
+
+#: simple-yearly-archive.php:544
+msgid "Settings successfully updated!"
+msgstr "恭喜你，设置已成功更新！"
+
+#: simple-yearly-archive.php:599
+msgid "Customize the archive output"
+msgstr "归档格式个性化设置"
+
+#: simple-yearly-archive.php:604
+msgid "Date format"
+msgstr "日期格式"
+
+#: simple-yearly-archive.php:608
+msgid "(Check <a href=\"http://php.net/date\" target=\"_blank\">http://php.net/date</a> for date formatting)"
+msgstr "(关于日期的格式请参考 <a href=\"http://php.net/date\" target=\"_blank\">http://php.net/date</a>)"
+
+#: simple-yearly-archive.php:614
+msgid "Seperator between date and post title"
+msgstr "日期和文章标题之间的分隔符号"
+
+#: simple-yearly-archive.php:630
+msgid "Linked years?"
+msgstr "是否为“年份”做链接？"
+
+#: simple-yearly-archive.php:622
+msgid "Before / After (Year headline)"
+msgstr "年份数字 前|后 的文字"
+
+#: simple-yearly-archive.php:708
+msgid "Update Options"
+msgstr "更新设置"
+
+#: simple-yearly-archive.php:745
+msgid "Help"
+msgstr "需要帮助"
+
+#: simple-yearly-archive.php:750
+msgid "If you are new to using this plugin or cant understand what all these settings do, please read the documentation at <a href=\"http://www.schloebe.de/wordpress/simple-yearly-archive-plugin/\" target=\"_blank\">http://www.schloebe.de/wordpress/simple-yearly-archive-plugin/</a>"
+msgstr "如果这是你第一次使用本插件，或者对这些设置有不明白之处，请参考以下文档： <a href=\"http://www.schloebe.de/wordpress/simple-yearly-archive-plugin/\" target=\"_blank\">http://www.schloebe.de/wordpress/simple-yearly-archive-plugin/</a>"
+
+#: simple-yearly-archive.php:327
+msgid "Plugin by"
+msgstr "插件作者"
+
+#: simple-yearly-archive.php:638
+msgid "Show post count for each year?"
+msgstr "是否显示每一年度的文章数？"
+
+#: simple-yearly-archive.php:646
+msgid "Show comments count for each post?"
+msgstr "是否显示每篇文章的评论数？"
+
+#: simple-yearly-archive.php:697
+msgid "Miscellaneous Options"
+msgstr "杂项"
+
+#: simple-yearly-archive.php:701
+msgid "Link back to my website in plugin footer? :)"
+msgstr "愿意在插件的页脚显示我的链接吗？ ：）"
+
+#: simple-yearly-archive.php:670
+msgid "Show optional Excerpt (if available)?"
+msgstr "是否显示摘要（如果有的话）？"
+
+#: simple-yearly-archive.php:678
+msgid "Max. chars of Excerpt (0 for default)"
+msgstr "摘要的最长字数（默认为0）"
+
+#: simple-yearly-archive.php:686
+msgid "Indentation of Excerpt (in px)"
+msgstr "摘要区域大小 （像素 px）"
+
+#: simple-yearly-archive.php:654
+msgid "Show categories after each post?"
+msgstr "是否在每篇文章后显示目录名称？"
+
+#: authorplugins.inc.php:32
+msgid "Visit plugin homepage"
+msgstr "访问插件主页"
+
+#: authorplugins.inc.php:35
+msgid "plugin"
+msgstr "插件"
+
+#: authorplugins.inc.php:35
+#: simple-yearly-archive.php:761
+msgid "Version"
+msgstr "版本号"
+
+#: authorplugins.inc.php:35
+#: simple-yearly-archive.php:761
+msgid "Author"
+msgstr "作者"
+
+#: simple-yearly-archive.php:209
+#: simple-yearly-archive.php:293
+msgid "by"
+msgstr "由"
+
+#: simple-yearly-archive.php:662
+msgid "Show post author after each post?"
+msgstr "是否在每篇文章后显示作者名字？"
+
+#: simple-yearly-archive.php:717
+msgid "More of my WordPress plugins"
+msgstr "我的其他WordPress插件"
+
+#: simple-yearly-archive.php:722
+msgid "You may also be interested in some of my other plugins:"
+msgstr "也许你会对我的其他Wordpress插件有兴趣："
+
+#: simple-yearly-archive.php:723
+msgid "Show other plugins by this author inline &raquo;"
+msgstr "本作者的其他插件展示 &raquo;"
+
+#: simple-yearly-archive.php:735
+msgid "More information at: <a href=\"http://extend.schloebe.de\" target=\"_blank\">http://extend.schloebe.de</a>"
+msgstr "更多详情请参见 <a href=\"http://extend.schloebe.de\" target=\"_blank\">http://extend.schloebe.de</a>"
+
+#: simple-yearly-archive.php:96
+msgid "Settings"
+msgstr "设置"
+
+#: simple-yearly-archive.php:322
+msgid "No posts found."
+msgstr "没有找到任何文章"
+
+#: simple-yearly-archive.php:768
+msgid "About Simple Yearly Archive"
+msgstr "关于本插件  Simple Yearly Archive"
+

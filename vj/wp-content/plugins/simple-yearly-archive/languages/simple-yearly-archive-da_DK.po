@@ -1,0 +1,164 @@
+# German (de_DE) translation for Simple Yearly Archive.
+# Copyright (C) 2007 Oliver Schl&ouml;be.
+# This file is distributed under the same license as the WordPress package.
+# Oliver Schl&ouml;be <webmaster@schloebe.de>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Yearly Archive in Danish\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-08-05 17:56+0100\n"
+"PO-Revision-Date: 2009-12-08 14:42+0100\n"
+"Last-Translator: Carl Andersen <carl@frugalware.dk>\n"
+"Language-Team: Carl Andersen <carl@frugalware.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: Denmark\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+
+#: simple-yearly-archive.php:474
+#: simple-yearly-archive.php:592
+msgid "Simple Yearly Archive Options"
+msgstr "Simple Yearly Arkiv Indstillinger"
+
+#: simple-yearly-archive.php:456
+#: simple-yearly-archive.php:458
+#: simple-yearly-archive.php:474
+msgid "Simple Yearly Archive"
+msgstr "Simple Yearly Archive"
+
+#: simple-yearly-archive.php:544
+msgid "Settings successfully updated!"
+msgstr "Indstillinger opdateret vellykket!"
+
+#: simple-yearly-archive.php:599
+msgid "Customize the archive output"
+msgstr "Tilpas arkiv output"
+
+#: simple-yearly-archive.php:604
+msgid "Date format"
+msgstr "Dato format"
+
+#: simple-yearly-archive.php:608
+msgid "(Check <a href=\"http://php.net/date\" target=\"_blank\">http://php.net/date</a> for date formatting)"
+msgstr "(Tjek <a href=\"http://php.net/date\" target=\"_blank\">http://php.net/date</a> for dato formatering)"
+
+#: simple-yearly-archive.php:614
+msgid "Seperator between date and post title"
+msgstr "Seperator mellem dato og indlægstitel"
+
+#: simple-yearly-archive.php:630
+msgid "Linked years?"
+msgstr "Linket år?"
+
+#: simple-yearly-archive.php:622
+msgid "Before / After (Year headline)"
+msgstr "Før / Efter (År overskrift)"
+
+#: simple-yearly-archive.php:708
+msgid "Update Options"
+msgstr "Opdater Indstillinger"
+
+#: simple-yearly-archive.php:745
+msgid "Help"
+msgstr "Hjælp"
+
+#: simple-yearly-archive.php:750
+msgid "If you are new to using this plugin or cant understand what all these settings do, please read the documentation at <a href=\"http://www.schloebe.de/wordpress/simple-yearly-archive-plugin/\" target=\"_blank\">http://www.schloebe.de/wordpress/simple-yearly-archive-plugin/</a>"
+msgstr "Hvis du er ny i at benytte dette plugin, eller ikke forstår hvad alle disse indstillinger gør, så læs venligst dokumentationen på <a href=\"http://www.schloebe.de/wordpress/simple-yearly-archive-plugin/\" target=\"_blank\">http://www.schloebe.de/wordpress/simple-yearly-archive-plugin/</a>"
+
+#: simple-yearly-archive.php:327
+msgid "Plugin by"
+msgstr "Plugin af"
+
+#: simple-yearly-archive.php:638
+msgid "Show post count for each year?"
+msgstr "Hvis indlægsoptælling for hvert år?"
+
+#: simple-yearly-archive.php:646
+msgid "Show comments count for each post?"
+msgstr "Vis kommentartælling for hvert indlæg?"
+
+#: simple-yearly-archive.php:697
+msgid "Miscellaneous Options"
+msgstr "Forskellige Valgmuligheder"
+
+#: simple-yearly-archive.php:701
+msgid "Link back to my website in plugin footer? :)"
+msgstr "Link tilbage til mit websted i plugin footer? :)"
+
+#: simple-yearly-archive.php:670
+msgid "Show optional Excerpt (if available)?"
+msgstr "Vis valgfrit Uddrag (hvis det er tilgængeligt)?"
+
+#: simple-yearly-archive.php:678
+msgid "Max. chars of Excerpt (0 for default)"
+msgstr "Maks bogstaver af Uddrag (0 for standard)"
+
+#: simple-yearly-archive.php:686
+msgid "Indentation of Excerpt (in px)"
+msgstr "Indhak af Uddrag (i px)"
+
+#: simple-yearly-archive.php:654
+msgid "Show categories after each post?"
+msgstr "Vis kategorier efter hvert indlæg?"
+
+#: authorplugins.inc.php:32
+msgid "Visit plugin homepage"
+msgstr "Besøg plugin hjemmesiden"
+
+#: authorplugins.inc.php:35
+msgid "plugin"
+msgstr "plugin"
+
+#: authorplugins.inc.php:35
+#: simple-yearly-archive.php:761
+msgid "Version"
+msgstr "Version"
+
+#: authorplugins.inc.php:35
+#: simple-yearly-archive.php:761
+msgid "Author"
+msgstr "Skribent"
+
+#: simple-yearly-archive.php:209
+#: simple-yearly-archive.php:293
+msgid "by"
+msgstr "af"
+
+#: simple-yearly-archive.php:662
+msgid "Show post author after each post?"
+msgstr "Vis indlægsskribent efter hvert indlæg?"
+
+#: simple-yearly-archive.php:717
+msgid "More of my WordPress plugins"
+msgstr "Flere af mine WordPress plugins"
+
+#: simple-yearly-archive.php:722
+msgid "You may also be interested in some of my other plugins:"
+msgstr "Det kan være at du også vil være interesseret i nogle af mine andre plugins:"
+
+#: simple-yearly-archive.php:723
+msgid "Show other plugins by this author inline &raquo;"
+msgstr "Vis andre plugins af denne forfatter inline &raquo;"
+
+#: simple-yearly-archive.php:735
+msgid "More information at: <a href=\"http://extend.schloebe.de\" target=\"_blank\">http://extend.schloebe.de</a>"
+msgstr "Mere information på: <a href=\"http://extend.schloebe.de\" target=\"_blank\">http://extend.schloebe.de</a>"
+
+#: simple-yearly-archive.php:96
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: simple-yearly-archive.php:322
+msgid "No posts found."
+msgstr "Ingen indlæg fundet."
+
+#: simple-yearly-archive.php:768
+msgid "About Simple Yearly Archive"
+msgstr "Om Simple Yearly Archive"
+

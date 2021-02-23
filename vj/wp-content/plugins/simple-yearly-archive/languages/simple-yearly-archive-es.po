@@ -1,0 +1,185 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Traduccion a Español\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-03 20:29+0000\n"
+"PO-Revision-Date: 2020-11-16 14:00+0100\n"
+"Language-Team: Ibidem Group - https://www.ibidemgroup.com\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: \n"
+"Language: es\n"
+
+#: admin/views/admin.php:35
+msgid "Settings successfully updated!"
+msgstr "¡Ajustes actualizados con éxito!"
+
+#: admin/views/admin.php:49
+msgid "Simple Yearly Archive Options"
+msgstr "Opciones de Simple Yearly Archive"
+
+#: admin/views/admin.php:56
+msgid "Customize the archive output"
+msgstr "Personalizar el archivo"
+
+#: admin/views/admin.php:61
+msgid "Date format"
+msgstr "Formato de fecha"
+
+#: admin/views/admin.php:63
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: admin/views/admin.php:65
+#, php-format
+msgid "Check <a href=\"%s\" target=\"_blank\">here</a> for date formatting"
+msgstr ""
+"Consulta <a href=\"%s\" target=\"_blank\">aquí</a> el formato de la fecha"
+
+#: admin/views/admin.php:71
+msgid "Seperator between date and post title"
+msgstr "Separador entre fecha y título del post"
+
+#: admin/views/admin.php:79
+msgid "Before / After (Year headline)"
+msgstr "Antes / Después (título del año)"
+
+#: admin/views/admin.php:87
+msgid "Linked years?"
+msgstr "¿Años vinculados?"
+
+#: admin/views/admin.php:96
+msgid "Collapsible years?"
+msgstr "¿Años plegables?"
+
+#: admin/views/admin.php:97
+msgid "Disables the \"Linked years?\" option"
+msgstr "Deshabilita la opción \"¿Años vinculados?\""
+
+#: admin/views/admin.php:106
+msgid "Anchored overview at the top?"
+msgstr "¿Resumen anclado en la parte superior?"
+
+#: admin/views/admin.php:114
+msgid "Show post count for each year?"
+msgstr "¿Mostrar el recuento de entradas para cada año?"
+
+#: admin/views/admin.php:122
+msgid "Show comments count for each post?"
+msgstr "¿Mostrar número de comentarios de cada entrada?"
+
+#: admin/views/admin.php:130
+msgid "Show categories after each post?"
+msgstr "¿Mostrar categorías después de cada entrada?"
+
+#: admin/views/admin.php:138
+msgid "Show tags after each post?"
+msgstr "¿Mostrar etiquetas después de cada entrada?"
+
+#: admin/views/admin.php:146
+msgid "Show post author after each post?"
+msgstr "¿Mostrar autor de la publicación después de cada entrada?"
+
+#: admin/views/admin.php:154
+msgid "Show optional Excerpt (if available)?"
+msgstr "¿Mostrar extracto opcional (si está disponible)?"
+
+#: admin/views/admin.php:162
+msgid "Max. chars of Excerpt (0 for default)"
+msgstr "Caracteres máximos del extracto (0 por defecto)"
+
+#: admin/views/admin.php:170
+msgid "Indentation of Excerpt (in px)"
+msgstr "Sangría del extracto (en px)"
+
+#: admin/views/admin.php:178
+msgid "Show post thumbnail (if available)?"
+msgstr "¿Mostrar miniatura de la entrada (si está disponible)?"
+
+#: admin/views/admin.php:186
+msgid "Post thumbnail size"
+msgstr "Tamaño de la miniatura de la entrada"
+
+#: admin/views/admin.php:186
+#, php-format
+msgid "Configure <a href=\"%s\" target=\"_blank\">here</a>!"
+msgstr "Configurar <a href=\"%s\" target=\"_blank\">aquí</a>!"
+
+#: admin/views/admin.php:203 admin/views/admin.php:227
+msgid "Update Options"
+msgstr "Actualizar opciones"
+
+#: admin/views/admin.php:210
+msgid "Miscellaneous Options"
+msgstr "Varias opciones"
+
+#: admin/views/admin.php:214
+msgid "Link back to my website in plugin footer? :)"
+msgstr "¿Link de vuelta a mi sitio web en el pie de página del plugin? :)"
+
+#: admin/views/admin.php:220
+msgid "Reverse order?"
+msgstr "¿Invertir el orden?"
+
+#: admin/views/admin.php:235
+msgid "More of my WordPress plugins"
+msgstr "Más plugins de WordPress de este autor"
+
+#: admin/views/admin.php:240
+msgid "You may also be interested in some of my other plugins:"
+msgstr "También puede estar interesado en algunos de mis otros plugins:"
+
+#: admin/views/admin.php:241
+msgid "Show other plugins by this author inline &raquo;"
+msgstr "Mostrar otros plugins de este autor en línea &raquo;"
+
+#: admin/views/admin.php:254
+msgid ""
+"More plugins at: <a class=\"button rbutton\" href=\"http://www.schloebe.de/"
+"portfolio/\" target=\"_blank\">www.schloebe.de</a>"
+msgstr ""
+"Más plugins en: <a class=\"button rbutton\" href=\"http://www.schloebe.de/"
+"portfolio/\" target=\"_blank\">www.schloebe.de</a>"
+
+#: admin/views/admin.php:263
+msgid "Help"
+msgstr "Ayuda"
+
+#: admin/views/admin.php:268
+msgid ""
+"If you are new to using this plugin or cant understand what all these "
+"settings do, please read the documentation at <a href=\"http://www.schloebe."
+"de/wordpress/simple-yearly-archive-plugin/\" target=\"_blank\">http://www."
+"schloebe.de/wordpress/simple-yearly-archive-plugin/</a>"
+msgstr ""
+"Si usted es nuevo en el uso de este plugin o no puede entender lo que todos "
+"estos ajustes hacen, por favor lea la documentación en <a href=\"http://www."
+"schloebe.de/wordpress/simple-yearly-archive-plugin/\" target=\"_blank"
+"\">http://www.schloebe.de/wordpress/simple-yearly-archive-plugin/</a>"
+
+#: admin/views/admin.php:286
+msgid "About Simple Yearly Archive"
+msgstr "Acerca de Simple Yearly Archive"
+
+#. Name of the plugin
+msgid "Simple Yearly Archive"
+msgstr "Archivo Anual Simple"
+
+#. Description of the plugin
+msgid "A simple, clean yearly list of your archives."
+msgstr "Un listado anual, simple y limpio de todos sus archivos."
+
+#. URI of the plugin
+msgid "http://www.schloebe.de/wordpress/simple-yearly-archive-plugin/"
+msgstr "http://www.schloebe.de/wordpress/simple-yearly-archive-plugin/"
+
+#. Author of the plugin
+msgid "Oliver Schl&ouml;be"
+msgstr "Oliver Schl'be"
+
+#. Author URI of the plugin
+msgid "https://www.schloebe.de/"
+msgstr "https://www.schloebe.de/"

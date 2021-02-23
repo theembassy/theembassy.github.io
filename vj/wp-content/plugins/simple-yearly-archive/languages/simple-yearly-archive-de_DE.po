@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Yearly Archive v1.7.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-03 20:30+0000\n"
+"PO-Revision-Date: 2017-01-03 20:30+0000\n"
+"Last-Translator: Alphawolf <scripts@schloebe.de>\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: D:"
+"/schloebeweb/xampp/htdocs/wordpresssource/plugins/simple-yearly-archive\n"
+"X-Textdomain-Support: yes\n"
+"Language: de-DE"
+
+#: admin/views/admin.php:138
+msgid "Show tags after each post?"
+msgstr "Zeige Schlagwörter nach jedem Beitrag?"
+
+#. Author URI of the plugin
+msgid "https://www.schloebe.de/"
+msgstr "https://www.schloebe.de/"
+
+#: admin/views/admin.php:35
+msgid "Settings successfully updated!"
+msgstr "Einstellungen erfolgreich gespeichert!"
+
+#: admin/views/admin.php:49
+msgid "Simple Yearly Archive Options"
+msgstr "Simple Yearly Archive Optionen"
+
+#: admin/views/admin.php:56
+msgid "Customize the archive output"
+msgstr "Die Archivanzeige anpassen"
+
+#: admin/views/admin.php:61
+msgid "Date format"
+msgstr "Datumsformat"
+
+#: admin/views/admin.php:63
+msgid "Examples"
+msgstr "Beispiele"
+
+#: admin/views/admin.php:65
+#, php-format
+msgid "Check <a href=\"%s\" target=\"_blank\">here</a> for date formatting"
+msgstr ""
+"<a href=\"%s\" target=\"_blank\">Hier</a> gibt es Infos zur "
+"Datumsformatierung"
+
+#: admin/views/admin.php:71
+msgid "Seperator between date and post title"
+msgstr "Trenner zwischen Datum und Beitragstitel"
+
+#: admin/views/admin.php:79
+msgid "Before / After (Year headline)"
+msgstr "Davor / Danach (Jahreszahlen)"
+
+#: admin/views/admin.php:87
+msgid "Linked years?"
+msgstr "Verlinkte Jahreszahlen?"
+
+#: admin/views/admin.php:96
+msgid "Collapsible years?"
+msgstr "Zusammenklappbare Jahreslisten?"
+
+#: admin/views/admin.php:97
+msgid "Disables the \"Linked years?\" option"
+msgstr "Deaktiviert die \"Verlinkte Jahreszahlen?\"-Option"
+
+#: admin/views/admin.php:106
+msgid "Anchored overview at the top?"
+msgstr "Verlinkte Jahrenzahlen als Sprungmarken zu Beginn?"
+
+#: admin/views/admin.php:114
+msgid "Show post count for each year?"
+msgstr "Zeige Beitragszahl für jedes Jahr?"
+
+#: admin/views/admin.php:122
+msgid "Show comments count for each post?"
+msgstr "Zeige Kommentarzahl für jeden Beitrag?"
+
+#: admin/views/admin.php:130
+msgid "Show categories after each post?"
+msgstr "Zeige Kategorien nach jedem Beitrag?"
+
+#: admin/views/admin.php:146
+msgid "Show post author after each post?"
+msgstr "Zeige Artikelautor nach jedem Beitrag?"
+
+#: admin/views/admin.php:154
+msgid "Show optional Excerpt (if available)?"
+msgstr "Zeige optionale Kurzfassung (falls vorhanden)?"
+
+#: admin/views/admin.php:162
+msgid "Max. chars of Excerpt (0 for default)"
+msgstr "Max. Zeichen der Kurzfassung (0 für Standard)"
+
+#: admin/views/admin.php:170
+msgid "Indentation of Excerpt (in px)"
+msgstr "Einrückung der Kurzfassung (in px)"
+
+#: admin/views/admin.php:178
+msgid "Show post thumbnail (if available)?"
+msgstr "Zeige Artikel-Vorschau-Bilder (wenn verf&uuml;gbar)?"
+
+#: admin/views/admin.php:186
+msgid "Post thumbnail size"
+msgstr "Artikel-Vorschaubild-Gr&ouml;&szlig;e"
+
+#: admin/views/admin.php:186
+#, php-format
+msgid "Configure <a href=\"%s\" target=\"_blank\">here</a>!"
+msgstr "<a href=\"%s\" target=\"_blank\">Hier</a> konfigurieren!"
+
+#: admin/views/admin.php:203 admin/views/admin.php:227
+msgid "Update Options"
+msgstr "Aktualisiere Einstellungen"
+
+#: admin/views/admin.php:210
+msgid "Miscellaneous Options"
+msgstr "Sonstige Einstellungen"
+
+#: admin/views/admin.php:214
+msgid "Link back to my website in plugin footer? :)"
+msgstr "Backlink zu meiner Webseite im Plugin-Fußteil? :)"
+
+#: admin/views/admin.php:220
+msgid "Reverse order?"
+msgstr "Reifenfolge umkehren?"
+
+#: admin/views/admin.php:235
+msgid "More of my WordPress plugins"
+msgstr "Weitere meiner WordPress Plugins"
+
+#: admin/views/admin.php:240
+msgid "You may also be interested in some of my other plugins:"
+msgstr "Es könnten Sie ebenfalls einige meiner weiteren Plugins interessieren:"
+
+#: admin/views/admin.php:241
+msgid "Show other plugins by this author inline &raquo;"
+msgstr "Weitere Plugins dieses Autors zeigen &raquo;"
+
+#: admin/views/admin.php:254
+msgid ""
+"More plugins at: <a class=\"button rbutton\" href=\"http://www.schloebe."
+"de/portfolio/\" target=\"_blank\">www.schloebe.de</a>"
+msgstr ""
+"Mehr Plugins auf: <a class=\"button rbutton\" href=\"http://www.schloebe."
+"de/portfolio/\" target=\"_blank\">www.schloebe.de</a>"
+
+#: admin/views/admin.php:263
+msgid "Help"
+msgstr "Hilfe"
+
+#: admin/views/admin.php:268
+msgid ""
+"If you are new to using this plugin or cant understand what all these "
+"settings do, please read the documentation at <a href=\"http://www.schloebe."
+"de/wordpress/simple-yearly-archive-plugin/\" target=\"_blank\">http://www."
+"schloebe.de/wordpress/simple-yearly-archive-plugin/</a>"
+msgstr ""
+"Falls Sie dieses Plugin zum ersten Mal benutzen und nicht wissen, was all "
+"diese Optionen machen, schauen Sie bitte in die Dokumentation auf <a "
+"href=\"http://www.schloebe.de/wordpress/simple-yearly-archive-plugin/\" "
+"target=\"_blank\">http://www.schloebe.de/wordpress/simple-yearly-archive-"
+"plugin/</a>"
+
+#: admin/views/admin.php:286
+msgid "About Simple Yearly Archive"
+msgstr "Über Simple Yearly Archive"
+
+#. translators: plugin header field 'Name'
+msgid "Simple Yearly Archive"
+msgstr "Simple Yearly Archive"
+
+#. translators: plugin header field 'Description'
+msgid "A simple, clean yearly list of your archives."
+msgstr "Ein einfaches, sauberes Jahresarchiv."
+
+#. translators: plugin header field 'PluginURI'
+msgid "http://www.schloebe.de/wordpress/simple-yearly-archive-plugin/"
+msgstr "https://www.schloebe.de/wordpress/simple-yearly-archive-plugin/"
+
+#. translators: plugin header field 'Author'
+msgid "Oliver Schl&ouml;be"
+msgstr "Oliver Schl&ouml;be"
