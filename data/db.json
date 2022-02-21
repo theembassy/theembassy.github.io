@@ -1,8 +1,8 @@
 {
   "squadName" : "The Embassy",
-  "homeTown" : "<a href=https://embarrassing.bandcamp.com/merch target=_blank>Shop</a>",
-  "formed" : "<a href=https://www.facebook.com/eembassy target=_blank>FB</a>",
-  "secretBase" : "<a href=https://www.instagram.com/embassy_international/ target=_blank>IG</a>",
+  "homeTown" : "<a href='https://embarrassing.bandcamp.com/merch' target='_blank'>Shop</a>",
+  "formed" : "<a href='https://www.facebook.com/eembassy' target='_blank'>FB</a>",
+  "secretBase" : "<a href='https://www.instagram.com/embassy_international/'' target='_blank'>IG</a>",
   "active" : true,
   "members" : [
     {
