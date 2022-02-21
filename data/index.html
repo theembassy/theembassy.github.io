@@ -37,11 +37,13 @@
     function populateHeader(obj) {
       const header = document.querySelector('header');
       const myH1 = document.createElement('h1');
-      myH1.textContent = obj['squadName'];
+      myH1.textContent = obj['rubrik'];
       header.appendChild(myH1);
 
       const myPara = document.createElement('p');
-      myPara.textContent = `Hometown: ${obj['homeTown']} // Formed: ${obj['formed']}`;
+      //myPara.textContent = `Hometown: ${obj['homeTown']} // Formed: ${obj['formed']}`;
+
+      myPara.textContent = <a href=${obj['menuLink']}>${obj['menu']}</a>;
       header.appendChild(myPara);
     }
 
