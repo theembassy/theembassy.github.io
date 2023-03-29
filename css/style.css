@@ -13,8 +13,8 @@ body {
 }
 
 a {
-  text-decoration: underline;
   color: #000;
+  text-decoration: underline;
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -257,7 +257,7 @@ ul.grid-nav li {
   font-size: 0px;
   border: 0px solid #000;
   box-shadow: 10px 10px 20px #888888;
-  background-color: #fff;
+
 }
 
 .zoom-container {
