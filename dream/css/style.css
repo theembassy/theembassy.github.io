@@ -16,7 +16,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #0000EE;
+  color: #000;
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -31,7 +31,6 @@ a:hover {
 }
 
 a:visited {
-
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: underline;
