@@ -43,7 +43,7 @@ h1 {
 }
 
 h2 {
-  font: 160% "Times New Roman", Times, serif;
+  font: 150% "Times New Roman", Times, serif;
   text-transform: uppercase;
 }
 
@@ -190,7 +190,6 @@ ul.cat-nav li.txt2 {
 
 .image-zoom-container {
   list-style: none;
-  font-size: 0px;
   border: 0px solid #000;
   box-shadow: 0px 0px 0px #888888;
   background-color: #fff;
@@ -202,7 +201,6 @@ ul.cat-nav li.txt2 {
   display: inline-block;
   width: 50%;
   /* this value + 2 should = 33% */
-  font-size: 1rem;
   border: 0px solid #fff;
   vertical-align: top;
   box-sizing: border-box;
