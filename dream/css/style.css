@@ -5,7 +5,7 @@
 
 body {
   background-color: #fff;
-  font: .8em/150% "Gill Sans","Gill Sans MT","Calibri",sans-serif;
+  font: .8em/150% "Times New Roman", Times, serif;
   color: #000;
   font-weight: 500;
   letter-spacing: 1px;
@@ -38,18 +38,17 @@ a:visited {
 }
 
 h1 {
-  font: bold 200% "Gill Sans","Gill Sans MT","Calibri",sans-serif;
+  font: bold 200% "Times New Roman", Times, serif;
   letter-spacing: 1px;
 }
 
-
-h3 {
-  font: 18px "Gill Sans","Gill Sans MT","Calibri",sans-serif;
+h2 {
+  font: 160% "Times New Roman", Times, serif;
   text-transform: uppercase;
 }
 
-h4 {
-  font: .9em/150% "Gill Sans","Gill Sans MT","Calibri",sans-serif;
+h3 {
+  font: .9em/150% "Times New Roman", Times, serif;
   color: #000;
   font-weight: 400;
   letter-spacing: 1px;
@@ -163,7 +162,7 @@ ul.nav li {
 
 ul.cat-nav {
   list-style: none;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
