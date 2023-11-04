@@ -8,7 +8,7 @@ body {
   font: .8em/150% "Times New Roman", Times, serif;
   color: #000;
   font-weight: 500;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
   text-align: left;
 }
@@ -40,6 +40,12 @@ a:visited {
 h1 {
   font: bold 170% "Times New Roman", Times, serif;
   letter-spacing: 1px;
+}
+
+h2 {
+  font: bold 170% "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  font-weight: 400;
 }
 
 
