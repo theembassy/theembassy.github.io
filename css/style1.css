@@ -16,15 +16,15 @@ body {
 a {
   text-decoration: underline;
   color: #000;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #000;
-  font-weight: 500;
+  color: #FF3131;
+  font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
   text-decoration: none;
@@ -32,9 +32,9 @@ a:hover {
 
 a:visited {
   color: #000;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 1px;
-  text-transform: underline;
+  text-transform: none;
 }
 
 h1 {
