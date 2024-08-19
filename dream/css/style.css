@@ -57,15 +57,16 @@ h3 {
   line-height: 1.8;
 }
 
+
+
 hr {
-  border: 0;
-  height: 2px;
-  background-image: -webkit-linear-gradient(left, #DCDCDC, #fff, #DCDCDC);
-  background-image: -moz-linear-gradient(left, #DCDCDC, #fff, #DCDCDC);
-  background-image: -ms-linear-gradient(left, #DCDCDC, #fff, #DCDCDC);
-  background-image: -o-linear-gradient(left, #DCDCDC, #fff, #DCDCDC);
-  margin-top: 15px;
-  margin-bottom: 15px;
+border: none;
+border-top: 1px solid #a6cbe0;
+height: 1px;
+color: #a6cbe0;
+background-color: #a6cbe0;
+margin-top: 30px;
+margin-bottom: 30px;
 }
 
 p.rubrik {
