@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: .9em/150% Arial, Helvetica, sans-serif;
+  color: #000;
+  display: block;
+  color: #000;
+  font-weight: 500;
+  letter-spacing: 0px;
+}
+
+a {
+  color: #0000EE;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0000EE
+}
+
+a:visited {
+  color: #0000EE;
+}
+
+a.droplink {
+  font-weight: 100;
+  color: #0000EE;
+}
+
+a.droplink:hover {
+  font-weight: 100;
+}
+
+a.textlink:hover {
+  font-weight: 100;
+}
+
+.centered {
+  text-align: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  list-style: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+ul.nfo {
+  list-style: none;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 10px;
+}
+
+ul.nfo li {
+  display: inline-block;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+ul.cat {
+  list-style: none;
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+ul.cat li {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  letter-spacing: 0.03em;
+}
+
+/* ---------- Zoom container GRID ---------- */
+.image-zoom-container {
+  list-style: none;
+  font-size: 0px;
+}
+
+.zoom-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 12.5%;
+  /* this value + 2 should = 33% */
+  font-size: 20px;
+  font-size: 1rem;
+  border: 1px solid #fff;
+  vertical-align: top;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.zoom-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.zoom-container .zoom-caption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.zoom-container .zoom-caption h3 {
+  display: none;
+  text-align: center;
+  font: .8em/150% Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  color: #fff;
+  margin: 40% 0 0;
+  padding: 0px 0;
+}
+
+.zoom-container:hover h3 {
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: auto;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .zoom-container {
+    width: 25%;
+  }
+}
+
+@media (max-width: 480px) {
+  .zoom-container {
+    width: 25%;
+  }
+}
+
+/* ---------- Zoom container MAX ---------- */
+.image-zoom-container-max {
+  list-style: none;
+  font-size: 0px;
+  box-shadow: 10px 10px 20px #888888;
+  background-color: #fff;
+}
+
+.zoom-container-max {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+  /* this value + 2 should = 33% */
+  font-size: 12px;
+  vertical-align: top;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 0px solid #000;
+}
+
+.zoom-container-max img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.zoom-container-max .zoom-caption {
+  position: absolute;
+  top: 50;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.zoom-container-max .zoom-caption h3 {
+  text-align: left;
+  font: 6em/150% Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  color: #84bac8;
+  margin: 5% 5% 0;
+  padding: 0px 0;
+}
+
+.zoom-container-max:hover h3 {
+  display: block;
+  color: #84bac8;
+}
+
+.zoom-container-max:hover img {
+  opacity: 1;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: auto;
+    padding: 0px 10px 0px 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: auto;
+    padding: 0px 10px 0px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: auto;
+    padding: 0px 10px 0px 10px;
+  }
+}
