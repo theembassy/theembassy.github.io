@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #fff;
+  font: .8em/150% Arial, Helvetica, sans-serif;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000;
+  font-weight: bold;
+  text-transform: none;
+}
+
+h1 {
+  color: #000;
+  font: bolder 200% Helvetica, Sans-Serif;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  padding-top: 0px;
+}
+
+h2 {
+  color: #000;
+  font: bolder 150% Helvetica, Sans-Serif;
+  line-height: 1.2;
+  letter-spacing: 0.13em;
+}
+
+hr {
+    display: block;
+    border: 0;
+    border-top: 3px solid #000;
+    padding-bottom: 20px;
+}
+
+#menu {
+  display: none;
+}
+
+#plus {
+  display: block;
+}
+
+#min {
+  display: block;
+}
+
+
+img.nav {
+  margin: 10px 8px;
+}
+
+ul.nav {
+  list-style: none;
+  text-align: center;
+  position: relative;
+  box-sizing: border-box;
+  border: 0px solid #000;
+  background-color: #fff;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  padding: 15px 0px 15px 0px;
+}
+
+ul.nav li {
+  display: inline-block;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  letter-spacing: 0.04em;
+}
+
+.footer {
+    width: 100%;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt;
+    /*
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    */
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0px 0;
+  background-color: #fff;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+/* ---------- Zoom container MAX ---------- */
+
+.image-zoom-container-max {
+  list-style: none;
+  font-size: 0px;
+}
+
+.zoom-container-max {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+  /* this value + 2 should = 33% */
+  font-size: 12px;
+  vertical-align: top;
+  box-sizing: border-box;
+  border: 0px solid #000;
+}
+
+.zoom-container-max img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: auto;
+    padding: 0px 0px 0px 0px;
+
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: auto;
+    padding: 0px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: auto;
+    padding: 0px 0px 0px 0px;
+  }
+}
+
+.mySlides1, .mySlides2 {display: none}
